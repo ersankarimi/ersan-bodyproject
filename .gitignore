@@ -1,0 +1,31 @@
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS folder attributes
+Icon?
+._*
+
+# Thumbnails
+Thumbs.db
+
+# System files
+.Spotlight-V100
+.Trashes
+
+# VS Code (jika kamu pakai)
+.vscode/
+
+# Node-related (jika ada build system atau tooling di masa depan)
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Optional backup or temp files
+*.bak
+*.tmp
+*~
