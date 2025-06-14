@@ -2,8 +2,8 @@
 
 📌 **Lihat versi web:**
 
-- [📄 Program Latihan Minggu 5-8](./https://ersankarimi.github.io/ersan-bodyproject/programs.html)
-- [🥗 Meal Plan Harian](./https://ersankarimi.github.io/ersan-bodyproject/meal-plans.html)
+- [📄 Program Latihan Minggu 5-8](https://ersankarimi.github.io/ersan-bodyproject/programs.html)
+- [🥗 Meal Plan Harian](https://ersankarimi.github.io/ersan-bodyproject/meal-plans.html)
 
 ---
 
