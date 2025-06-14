@@ -2,14 +2,15 @@
 
 📌 **Lihat versi web:**
 
-- [📄 Program Latihan 4 Minggu](./programs.html)
+- [📄 Program Latihan Minggu 5-8](./programs.html)
 - [🥗 Meal Plan Harian](./meal-plans.html)
 
 ---
 
 📌 **Lihat versi pdf:**
 
-- [📄 Program Latihan 4 Minggu](./programs.pdf)
+- [📄 [Sekarang] Program Latihan Minggu 5-8](./programs[5-8].pdf)
+- [📄 Program Latihan Minggu 1-4](./programs[1-4].pdf)
 - [🥗 Meal Plan Harian](./meal-plans.pdf)
 
 Sebuah panduan sederhana untuk meningkatkan massa otot dan menurunkan lemak
@@ -86,8 +87,9 @@ hari, dan bisa disesuaikan dengan menambahkan sumber protein tambahan.
 
 ## 📎 File Pendukung
 
-- [🥗 Meal Plan Harian (Tanpa Roti Gandum, Pakai Nasi Putih)](<./🥗%20Meal%20Plan%20Harian%20(Tanpa%20Roti%20Gandum,%20Pakai%20Nasi%20Putih).pdf>)
-- [📄 Program Latihan 4 Minggu untuk Meningkatkan Massa Otot & Menurunkan Lemak](./Program%20Latihan%204%20Minggu%20untuk%20Meningkatkan%20Massa%20Otot%20&%20Menurunkan%20Lemak.pdf)
+- [🥗 Meal Plan Harian (Tanpa Roti Gandum, Pakai Nasi Putih)](./meal-plans.pdf)
+- [📄 Program Latihan Minggu 1-4 untuk Meningkatkan Massa Otot & Menurunkan Lemak](./programs[1-4].pdf)
+- [📄 Program Latihan Minggu 5-8 untuk Transformasi Maskulin Total](./programs[5-8].pdf)
 
 ---
 
