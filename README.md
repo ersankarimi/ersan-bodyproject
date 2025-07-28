@@ -4,7 +4,7 @@ Panduan lengkap 2 fase latihan dan meal plan:
 
 📌 **Lihat versi web:**
 
-- [📄 Program Latihan](https://ersankarimi.github.io/ersan-bodyproject/programs.html)
+- [📄 Program Latihan](https://ersankarimi.github.io/ersan-bodyproject/programs-styled.html)
 - [🥗 Meal Plan Harian](https://ersankarimi.github.io/ersan-bodyproject/meal-plans.html)
 
 📌 **Lihat versi PDF:**
