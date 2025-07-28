@@ -1,104 +1,105 @@
-# 💪 Program 4 Minggu: Latihan & Meal Plan
+# 💪 Program Transformasi 12 Minggu by Ersan
+
+Panduan lengkap 2 fase latihan dan meal plan:
 
 📌 **Lihat versi web:**
 
-- [📄 Program Latihan Minggu 5-8](https://ersankarimi.github.io/ersan-bodyproject/programs.html)
+- [📄 Program Latihan](https://ersankarimi.github.io/ersan-bodyproject/programs.html)
 - [🥗 Meal Plan Harian](https://ersankarimi.github.io/ersan-bodyproject/meal-plans.html)
 
----
+📌 **Lihat versi PDF:**
 
-📌 **Lihat versi pdf:**
-
-- [📄 [Sekarang] Program Latihan Minggu 5-8](./programs[5-8].pdf)
-- [📄 Program Latihan Minggu 1-4](./programs[1-4].pdf)
+- [📄 Program Latihan](./programs.pdf)
 - [🥗 Meal Plan Harian](./meal-plans.pdf)
 
-Sebuah panduan sederhana untuk meningkatkan massa otot dan menurunkan lemak
-tubuh, dengan peralatan terbatas di rumah dan meal plan praktis tanpa roti
-gandum — cocok untuk kamu yang lebih nyaman menggunakan **nasi putih** sebagai
-sumber karbohidrat utama.
-
 ---
 
-## 📋 Ringkasan Program
+## 🧭 Ringkasan Program
 
-- **Durasi**: 4 Minggu
-- **Tujuan**: Meningkatkan massa otot & menurunkan lemak
-- **Tingkat**: Intermediate (cocok untuk kamu yang sudah aktif berolahraga)
-- **Peralatan**: Dumbbell 5kg, elliptical, matras yoga, sit-up holder
-- **Frekuensi Latihan**: 4–5x per minggu
-- **Durasi Latihan Harian**: 45–60 menit
+| Fase       | Durasi   | Fokus Utama                                    | Peralatan                    |
+| ---------- | -------- | ---------------------------------------------- | ---------------------------- |
+| Beast Mode | 8 Minggu | Hypertrophy, kekuatan, core, dan definisi otot | Dumbbell 10kg, matras, kursi |
 
 ---
 
 ## 🏋️‍♂️ Jadwal Latihan Mingguan
 
-| Hari   | Fokus Latihan                                      |
-| ------ | -------------------------------------------------- |
-| Senin  | Upper Body + Core                                  |
-| Selasa | Kardio HIIT + Isometric Strength (Wall Sit, Plank) |
-| Rabu   | Lower Body + Core                                  |
-| Kamis  | Istirahat atau Yoga Ringan                         |
-| Jumat  | Full Body + Core                                   |
-| Sabtu  | Kardio Steady + Bodyweight Strength                |
-| Minggu | Istirahat                                          |
-
-### 📌 Progres Mingguan
-
-- **Minggu 1–2**: Fokus teknik, istirahat antar set 45–60 detik
-- **Minggu 3–4**: Tambah repetisi/durasi, istirahat 30–45 detik, tingkatkan
-  intensitas elliptical
+| Hari   | Fase Reset (Minggu 1-4)                   | Fase Beast Mode (Minggu 5-12)              |
+| ------ | ----------------------------------------- | ------------------------------------------ |
+| Senin  | Upper Body + Core                         | Push Strength (Dada, Bahu, Triceps) + Core |
+| Selasa | HIIT + Wall Sit/Plank + Glutes            | Lower Body & Glutes + Core                 |
+| Rabu   | Lower Body + Core                         | Pull Strength (Punggung, Biceps) + Core    |
+| Kamis  | Yoga / Istirahat Aktif                    | Total Rest / Stretching                    |
+| Jumat  | Full Body + Core                          | Full Body Hypertrophy + Core Stability     |
+| Sabtu  | Steady State Cardio + Bodyweight Strength | Elliptical HIIT + Core Power Circuit       |
+| Minggu | Istirahat                                 | Total Rest / Mobility                      |
 
 ---
 
-## 🥗 Meal Plan Harian
+## 🍽️ Meal Plan Harian (1300-1500 kkal)
 
-Meal plan ini dirancang untuk mencapai sekitar **1300 kkal & 77g protein** per
-hari, dan bisa disesuaikan dengan menambahkan sumber protein tambahan.
+| Waktu              | Menu                                | Kalori | Protein |
+| ------------------ | ----------------------------------- | ------ | ------- |
+| **Sarapan**        | Telur rebus, nasi putih, kopi hitam | 300    | 16g     |
+| **Makan Siang**    | Nasi, tempe, tumis sayur            | 450    | 27g     |
+| **Snack**          | Telur rebus + pisang                | 170    | 7g      |
+| **Makan Malam**    | Tahu goreng, nasi, sayur rebus      | 310    | 21g     |
+| **Snack Opsional** | Telur rebus                         | 70     | 6g      |
+| **Total**          |                                     | 1300   | 77g     |
 
-### 🕘 Rencana Harian
+### 🔁 Tambahan Protein (Jika Target: ~140-150g)
 
-| Waktu              | Menu                                  | Kalori | Protein |
-| ------------------ | ------------------------------------- | ------ | ------- |
-| **Sarapan**        | Telur rebus 2, nasi putih, kopi hitam | 300    | 16g     |
-| **Makan Siang**    | Nasi putih, tempe goreng, tumis sayur | 450    | 27g     |
-| **Snack**          | Telur rebus, pisang                   | 170    | 7g      |
-| **Makan Malam**    | Nasi putih, tahu goreng, sayur rebus  | 310    | 21g     |
-| **Snack Opsional** | Telur rebus                           | 70     | 6g      |
-| **Total**          |                                       | 1300   | 77g     |
-
-### 🔁 Penyesuaian untuk Target Protein (~148g)
-
-| Sumber Protein Tambahan | Porsi   | Kalori | Protein |
-| ----------------------- | ------- | ------ | ------- |
-| Dada ayam panggang      | 100g    | 165    | 31g     |
-| Tempe goreng tambahan   | 50g     | 100    | 10g     |
-| Susu whey (opsional)    | 1 scoop | 120    | 24g     |
+| Sumber Protein     | Porsi   | Kalori | Protein |
+| ------------------ | ------- | ------ | ------- |
+| Dada ayam panggang | 100g    | 165    | 31g     |
+| Tempe tambahan     | 50g     | 100    | 10g     |
+| Whey protein (ops) | 1 scoop | 120    | 24g     |
 
 ---
 
-## ⚠️ Catatan Penting
+## 📈 Progresif Overload Mingguan
 
-- Gunakan timer untuk plank, wall sit, dan elliptical
-- Jangan skip pemanasan (5–10 menit) dan pendinginan
-- Minum cukup air dan usahakan konsumsi protein tinggi setiap hari
+| Minggu | Fokus                                |
+| ------ | ------------------------------------ |
+| 1-2    | Teknik, form, istirahat 60 detik     |
+| 3-4    | Tambah repetisi, istirahat 30-45 dtk |
+| 5-8    | Tambah volume & variasi              |
+| 9-12   | Super/drop set, variasi tempo        |
+
+**Tracking yang disarankan:**
+
+- Catat repetisi/set/beban
+- Foto progres (setiap 2-4 minggu)
+- Ukur lingkar lengan, dada, pinggang, paha
 
 ---
 
-## 📎 File Pendukung
+## 🧠 Tips Sukses
 
-- [🥗 Meal Plan Harian (Tanpa Roti Gandum, Pakai Nasi Putih)](./meal-plans.pdf)
-- [📄 Program Latihan Minggu 1-4 untuk Meningkatkan Massa Otot & Menurunkan Lemak](./programs[1-4].pdf)
-- [📄 Program Latihan Minggu 5-8 untuk Transformasi Maskulin Total](./programs[5-8].pdf)
+1. **Protein cukup:** 1.6-2.2g/kg BB
+2. **Kalori terkontrol:** defisit ringan atau maintenance
+3. **Tidur 7-9 jam:** penting untuk pemulihan
+4. **Mind-muscle connection:** rasakan kontraksi otot
+5. **Mobility & stretching:** jangan dilewatkan
+6. **Konsisten > Sempurna**
+
+---
+
+## 📎 File Lengkap
+
+- [📄 Reset Workout Weeks 1-4](./programs[1-4].pdf)
+- [📄 Beast Mode Weeks 5-8](./programs[5-8].pdf)
+- [🥗 Meal Plan](./meal-plans.pdf)
 
 ---
 
 ## 🙋‍♂️ Tentang Saya
 
-Dokumen ini disusun oleh **Ersan Karimi**.
+Program ini disusun oleh **Ersan Karimi** untuk kamu yang ingin transformasi
+tubuh dengan alat sederhana namun hasil nyata.
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/ersankarimi/)
 - 📸 [Instagram](https://www.instagram.com/ersankarimi/)
 - 💻 [GitHub](https://github.com/ersankarimi)
 
-Semoga bermanfaat dan semangat progresnya! 💥
+> Semangat terus & tetap progresif. 💥 Konsistensi akan mengalahkan segalanya.

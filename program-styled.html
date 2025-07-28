@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🏋️‍♂️ Program Latihan Beast Mode - Ersan Karimi</title>
+    <!-- Google Fonts: Poppins for readability, Montserrat for headings -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      /* CSS Reset */
+      /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+      html,
+      body,
+      div,
+      span,
+      applet,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      a,
+      abbr,
+      acronym,
+      address,
+      big,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      img,
+      ins,
+      kbd,
+      q,
+      s,
+      samp,
+      small,
+      strike,
+      strong,
+      sub,
+      sup,
+      tt,
+      var,
+      b,
+      u,
+      i,
+      center,
+      dl,
+      dt,
+      dd,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      article,
+      aside,
+      canvas,
+      details,
+      embed,
+      figure,
+      figcaption,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      output,
+      ruby,
+      section,
+      summary,
+      time,
+      mark,
+      audio,
+      video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      ol,
+      ul {
+        list-style: none;
+      }
+      blockquote,
+      q {
+        quotes: none;
+      }
+      blockquote:before,
+      blockquote:after,
+      q:before,
+      q:after {
+        content: "";
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      /* CSS Reset */
+
+      :root {
+        --primary: #2c3e50; /* Dark Blue */
+        --secondary: #e74c3c; /* Red */
+        --accent: #3498db; /* Blue */
+        --light-bg: #ecf0f1; /* Light Gray Blue */
+        --dark-text: #34495e; /* Deeper Dark Blue */
+        --light-text: #7f8c8d; /* Muted Gray */
+        --success: #27ae60; /* Green */
+        --warning: #f39c12; /* Orange */
+        --shadow-light: rgba(0, 0, 0, 0.08);
+        --shadow-medium: rgba(0, 0, 0, 0.15);
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        line-height: 1.7;
+        color: var(--dark-text);
+        background-color: var(--light-bg);
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .container {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 40px;
+        background-color: white;
+        box-shadow: 0 10px 30px var(--shadow-light);
+        border-radius: 12px;
+      }
+
+      h1 {
+        font-family: "Montserrat", sans-serif;
+        color: var(--primary);
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 4px solid var(--secondary);
+        font-size: 2.8em;
+        font-weight: 800;
+        line-height: 1.2;
+        position: relative;
+        height: max-content;
+      }
+
+      h1::after {
+        content: "💪⚡"; /* More prominent icons for main title */
+        position: absolute;
+        bottom: -24px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.8em; /* Relative to h1 */
+        color: var(--secondary);
+      }
+
+      h2 {
+        font-family: "Montserrat", sans-serif;
+        color: var(--primary);
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding-bottom: 12px;
+        border-bottom: 2px solid var(--light-bg);
+        font-size: 2.2em;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      h2 i {
+        color: var(--secondary);
+        font-size: 0.9em;
+      }
+
+      h3 {
+        font-family: "Montserrat", sans-serif;
+        color: var(--primary);
+        margin-top: 35px;
+        margin-bottom: 15px;
+        font-size: 1.8em;
+        font-weight: 600;
+        padding-left: 15px;
+        border-left: 5px solid var(--accent);
+        transition: border-left 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      h3 i {
+        color: var(--accent);
+        font-size: 0.9em;
+      }
+
+      h3:hover {
+        border-left-color: var(--secondary);
+      }
+
+      hr {
+        border: 0;
+        height: 3px;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          var(--accent),
+          var(--primary),
+          var(--accent),
+          rgba(0, 0, 0, 0)
+        );
+        margin: 50px 0;
+        border-radius: 2px;
+      }
+
+      ul,
+      ol {
+        padding-left: 25px;
+        margin-bottom: 20px;
+      }
+
+      ul li {
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 10px;
+      }
+
+      ul:not(.nested-list) li::before {
+        content: "\2714"; /* Checkmark */
+        color: var(--success);
+        position: absolute;
+        left: -10px;
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+
+      ol li {
+        margin-bottom: 12px;
+        position: relative;
+        padding-left: 10px;
+      }
+
+      ol:not(.nested-list) li::before {
+        content: counter(list-item) ". ";
+        counter-increment: list-item;
+        color: var(--secondary);
+        font-weight: bold;
+        position: absolute;
+        left: -10px;
+      }
+
+      ul.nested-list,
+      ol.nested-list {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding-left: 20px; /* Indent nested lists */
+      }
+
+      ul.nested-list li::before,
+      ol.nested-list li::before {
+        content: ""; /* Remove custom bullets/numbers for nested lists */
+      }
+      ul.nested-list {
+        list-style: disc;
+      }
+      ol.nested-list {
+        list-style: decimal;
+      }
+
+      strong {
+        color: var(--dark-text);
+        font-weight: 600;
+      }
+
+      em {
+        color: var(--light-text);
+        font-style: italic;
+        display: block;
+        margin-top: 5px;
+        font-size: 0.9em;
+        line-height: 1.5;
+        background-color: #fcfcfc;
+        padding: 8px 12px;
+        border-radius: 5px;
+        border-left: 3px solid var(--accent);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin: 30px 0;
+        font-size: 0.95em;
+        box-shadow: 0 5px 15px var(--shadow-light);
+        border-radius: 10px;
+        overflow: hidden; /* Ensure rounded corners */
+      }
+
+      th,
+      td {
+        padding: 15px 20px;
+        text-align: left;
+        border-bottom: 1px solid var(--light-bg);
+      }
+
+      th {
+        background-color: var(--primary);
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      tr:nth-child(even) {
+        background-color: var(--light-bg);
+      }
+
+      tr:hover {
+        background-color: #e8f0fe; /* Light blue on hover */
+        transition: background-color 0.2s ease-in-out;
+      }
+
+      tr:last-child td {
+        border-bottom: none; /* No border for the last row */
+      }
+
+      .exercise-group {
+        background-color: #fcfdfe; /* Very light blue tint */
+        border-left: 5px solid var(--secondary);
+        padding: 20px 25px;
+        margin: 30px 0;
+        border-radius: 0 8px 8px 0;
+        box-shadow: 0 5px 15px var(--shadow-light);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .exercise-group:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px var(--shadow-medium);
+      }
+
+      .exercise-item {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px dashed #e0e0e0;
+      }
+
+      .exercise-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      .exercise-name {
+        font-weight: bold;
+        color: var(--primary);
+        font-size: 1.1em;
+        margin-bottom: 5px;
+      }
+
+      .note-box {
+        background-color: #e8f0fe; /* Lighter blue */
+        border-left: 5px solid var(--accent);
+        padding: 20px;
+        margin: 30px 0;
+        border-radius: 0 8px 8px 0;
+        box-shadow: 0 5px 15px var(--shadow-light);
+      }
+
+      .note-box h2,
+      .note-box h3 {
+        margin-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+
+      /* Specific styles for core principles */
+      .principles-list li strong {
+        color: var(--secondary); /* Make principle keywords stand out */
+      }
+
+      /* Specific styles for progressive overload */
+      .progressive-overload ol li::before {
+        background-color: var(--secondary);
+        color: white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2em;
+        left: -35px;
+        top: -3px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .progressive-overload ol {
+        counter-reset: my-custom-counter;
+        list-style: none;
+      }
+      .progressive-overload ol li {
+        counter-increment: my-custom-counter;
+        padding-left: 15px;
+      }
+      .progressive-overload ol li::before {
+        content: counter(my-custom-counter);
+      }
+      .progressive-overload ul.nested-list {
+        list-style: disc;
+      }
+      .progressive-overload ul.nested-list li::before {
+        content: "";
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        body {
+          padding: 15px;
+        }
+        .container {
+          padding: 20px;
+        }
+        h1 {
+          font-size: 2.2em;
+          margin-bottom: 30px;
+        }
+        h2 {
+          font-size: 1.8em;
+          margin-top: 40px;
+        }
+        h3 {
+          font-size: 1.5em;
+          margin-top: 30px;
+          padding-left: 10px;
+          border-left-width: 4px;
+        }
+        th,
+        td {
+          padding: 10px 12px;
+          font-size: 0.85em;
+        }
+        table {
+          display: block;
+          overflow-x: auto;
+          white-space: nowrap;
+        }
+        .exercise-group {
+          padding: 15px 20px;
+          margin: 20px 0;
+          border-left-width: 4px;
+        }
+        em {
+          padding: 6px 10px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .container {
+          padding: 15px;
+          border-radius: 8px;
+        }
+        h1 {
+          font-size: 1.8em;
+          margin-bottom: 25px;
+          padding-bottom: 10px;
+        }
+        h2 {
+          font-size: 1.5em;
+          margin-top: 30px;
+        }
+        h3 {
+          font-size: 1.3em;
+          margin-top: 25px;
+        }
+        ul,
+        ol {
+          padding-left: 15px;
+        }
+        ul:not(.nested-list) li::before,
+        ol:not(.nested-list) li::before {
+          left: -5px;
+        }
+        .progressive-overload ol li::before {
+          left: -25px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        🏋️‍♂️ Program Latihan<br />
+        "Beast Mode" by Ersan
+      </h1>
+
+      <div class="note-box">
+        <h2><i class="fas fa-bullseye"></i> Tujuan</h2>
+        <ul>
+          <li>
+            <strong>Meningkatkan Massa Otot (Hypertrophy):</strong> Fokus pada
+            volume dan progresif overload.
+          </li>
+          <li>
+            <strong>Meningkatkan Kekuatan &amp; Daya Tahan Otot:</strong>
+            Membangun fondasi yang kuat.
+          </li>
+          <li>
+            <strong>Perut Six-Pack &amp; Core Kuat:</strong> Integrasi latihan
+            core spesifik setiap hari.
+          </li>
+          <li>
+            <strong>Tangan Macho (Biceps &amp; Triceps):</strong> Penekanan
+            khusus pada lengan.
+          </li>
+          <li>
+            <strong>Postur Optimal &amp; Kesehatan Punggung:</strong>
+            Memperkuat otot postural.
+          </li>
+          <li>
+            <strong>Kesehatan Kardiovaskular:</strong> Melalui sesi elliptical.
+          </li>
+          <li>
+            <strong>Pemulihan &amp; Fleksibilitas:</strong> Dengan hari
+            istirahat aktif/pasif.
+          </li>
+        </ul>
+      </div>
+
+      <h2><i class="fas fa-tools"></i> Peralatan</h2>
+      <ul>
+        <li>Dumbbell 10kg (sepasang)</li>
+        <li>Matras yoga</li>
+        <li>Mesin elliptical</li>
+        <li>Kursi/bangku datar (opsional, untuk Bulgarian Split Squat)</li>
+      </ul>
+
+      <hr />
+
+      <h2><i class="fas fa-calendar-alt"></i> Jadwal Latihan Mingguan</h2>
+      <table>
+        <thead>
+          <tr>
+            <th align="left">Hari</th>
+            <th align="left">Fokus</th>
+            <th align="left">Catatan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left">Senin</td>
+            <td align="left">
+              <strong>Upper Body Strength (Push Focus) + Core</strong>
+            </td>
+            <td align="left">Dada, Bahu (Depan/Samping), Triceps</td>
+          </tr>
+          <tr>
+            <td align="left">Selasa</td>
+            <td align="left">
+              <strong>Lower Body &amp; Glutes + Core</strong>
+            </td>
+            <td align="left">Kaki, Glutes, Hamstring, Betis</td>
+          </tr>
+          <tr>
+            <td align="left">Rabu</td>
+            <td align="left">
+              <strong>Upper Body Strength (Pull Focus) + Core</strong>
+            </td>
+            <td align="left">Punggung, Bahu (Belakang), Biceps</td>
+          </tr>
+          <tr>
+            <td align="left">Kamis</td>
+            <td align="left">
+              <strong>Total Rest / Active Recovery (Light Stretching)</strong>
+            </td>
+            <td align="left">Fokus pada pemulihan. Hindari latihan berat.</td>
+          </tr>
+          <tr>
+            <td align="left">Jumat</td>
+            <td align="left">
+              <strong>Full Body Hypertrophy + Core Stability</strong>
+            </td>
+            <td align="left">
+              Kombinasi gerakan untuk pertumbuhan otot menyeluruh
+            </td>
+          </tr>
+          <tr>
+            <td align="left">Sabtu</td>
+            <td align="left">
+              <strong>Kardio Intensity (Elliptical HIIT) + Core Power</strong>
+            </td>
+            <td align="left">
+              Bakar lemak, tingkatkan daya tahan, latih core dinamis.
+            </td>
+          </tr>
+          <tr>
+            <td align="left">Minggu</td>
+            <td align="left">
+              <strong>Total Rest / Mobility &amp; Gentle Stretching</strong>
+            </td>
+            <td align="left">
+              Pemulihan penuh. Boleh peregangan ringan jika diperlukan.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr />
+
+      <h2><i class="fas fa-list-alt"></i> Rincian Latihan Harian</h2>
+      <p><strong>Prinsip Umum untuk Setiap Sesi:</strong></p>
+      <ul class="principles-list">
+        <li>
+          <strong>Pemanasan (5-10 menit):</strong> Gerakan dinamis (Arm Circles,
+          Leg Swings, Torso Twists, Light Jumping Jacks/High Knees).
+        </li>
+        <li>
+          <strong>Tempo:</strong> Fokus pada kontrol!
+          <strong>3 detik turun/fase eksentrik</strong>,
+          <strong>1 detik jeda di bawah</strong>,
+          <strong>1 detik naik/fase konsentrik</strong>. Ini penting untuk
+          hypertrophy!
+        </li>
+        <li>
+          <strong>Istirahat Antar Set:</strong> 60-90 detik untuk latihan
+          kekuatan/hypertrophy.
+        </li>
+        <li>
+          <strong>Pendinginan (5-10 menit):</strong> Peregangan statis (tahan
+          setiap peregangan 20-30 detik).
+        </li>
+      </ul>
+
+      <hr />
+
+      <div class="exercise-group">
+        <h3>
+          <i class="fas fa-fist-raised"></i> Senin - Upper Body Strength (Push
+          Focus) + Core
+        </h3>
+        <div class="exercise-item">
+          <div class="exercise-name">Dumbbell Floor Press:</div>
+          <div>4 set x 10-12 repetisi (Tempo: 3:1:1)</div>
+          <em
+            >Fokus: Dada, Triceps. Pastikan siku membentuk sudut 45 derajat dari
+            tubuh.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Dumbbell Shoulder Press (Seated/Standing):
+          </div>
+          <div>4 set x 10-12 repetisi</div>
+          <em>Fokus: Bahu depan. Jaga punggung tetap lurus.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Dumbbell Lateral Raise:</div>
+          <div>
+            4 set x 12-15 repetisi (lebih ringan, fokus pada bahu samping)
+          </div>
+          <em>Fokus: Lebar bahu. Jangan ayunkan badan.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Incline Push-Up (kaki diangkat di kursi/sofa):
+          </div>
+          <div>3 set x Maksimal Repetisi (hingga form jelek/gagal)</div>
+          <em
+            >Fokus: Dada atas, bahu. Jika terlalu sulit, naikkan kaki ke
+            permukaan yang lebih rendah.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Overhead Dumbbell Triceps Extension (Single Dumbbell):
+          </div>
+          <div>3 set x 12-15 repetisi</div>
+          <em>Fokus: Triceps. Jaga siku dekat kepala.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Diamond Push-Up (jika mampu):</div>
+          <div>3 set x Maksimal Repetisi</div>
+          <em>Fokus: Triceps intensif. Jika sulit, lakukan di lutut.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Plank with Hip Dips:</div>
+          <div>3 set x 10-12 repetisi per sisi</div>
+          <em>Fokus: Oblique, stabilitas core. Jaga core tetap aktif.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Hollow Body Hold:</div>
+          <div>3 set x 30-45 detik</div>
+          <em
+            >Fokus: Core, abs bagian bawah. Jaga punggung bawah menempel
+            lantai.</em
+          >
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="exercise-group">
+        <h3>
+          <i class="fas fa-walking"></i> Selasa - Lower Body & Glutes + Core
+        </h3>
+        <div class="exercise-item">
+          <div class="exercise-name">Dumbbell Goblet Squat:</div>
+          <div>4 set x 12-15 repetisi (Tempo: 3:1:1)</div>
+          <em
+            >Fokus: Kaki, glutes, quad. Jaga dada tegak, lutut sejajar jari
+            kaki.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Dumbbell Romanian Deadlift (RDL):</div>
+          <div>4 set x 10-12 repetisi (Tempo: 3:1:1)</div>
+          <em
+            >Fokus: Hamstring, glutes, punggung bawah. Sedikit tekuk lutut,
+            dorong pinggul ke belakang. Rasakan peregangan di hamstring.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Bulgarian Split Squat (Pakai Kursi/Sofa):
+          </div>
+          <div>3 set x 10-12 repetisi per kaki</div>
+          <em
+            >Fokus: Kaki, glutes, keseimbangan. Penting untuk kekuatan
+            unilateral.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Glute Bridge March (Dumbbell di Pinggul):
+          </div>
+          <div>3 set x 12-15 repetisi per kaki</div>
+          <em>Fokus: Glutes, hamstring, stabilitas pinggul.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Calf Raises (Dumbbell di Tangan):</div>
+          <div>4 set x 15-20 repetisi</div>
+          <em
+            >Fokus: Betis. Berdiri di tepi tangga/buku tebal untuk jangkauan
+            penuh.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Leg Raise + Pulse (straight leg):</div>
+          <div>3 set x 15-20 repetisi</div>
+          <em
+            >Fokus: Abs bagian bawah. Jaga punggung bawah tetap menempel
+            lantai.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Reverse Crunches:</div>
+          <div>3 set x 15-20 repetisi</div>
+          <em>Fokus: Abs bagian bawah. Angkat pinggul dari lantai.</em>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="exercise-group">
+        <h3>
+          <i class="fas fa-hand-rock"></i> Rabu - Upper Body Strength (Pull
+          Focus) + Core
+        </h3>
+        <div class="exercise-item">
+          <div class="exercise-name">Dumbbell Bent Over Row:</div>
+          <div>4 set x 10-12 repetisi (Tempo: 3:1:1)</div>
+          <em
+            >Fokus: Punggung (latissimus dorsi, rhomboid). Jaga punggung lurus,
+            dorong siku ke belakang.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Single Arm Dumbbell Row (Kaki Depan-Belakang):
+          </div>
+          <div>3 set x 10-12 repetisi per sisi</div>
+          <em>Fokus: Punggung, stabilitas core. Gerakan terkontrol.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Superman Hold:</div>
+          <div>3 set x 30-45 detik</div>
+          <em
+            >Fokus: Otot punggung bawah, glutes. Angkat lengan dan kaki secara
+            bersamaan.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Dumbbell Bicep Curl (Standing/Seated):
+          </div>
+          <div>4 set x 10-12 repetisi</div>
+          <em>Fokus: Biceps. Kontrol gerakan, jangan ayunkan badan.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Dumbbell Hammer Curl:</div>
+          <div>3 set x 12-15 repetisi</div>
+          <em
+            >Fokus: Biceps (bagian brachialis), forearm. Telapak tangan
+            menghadap satu sama lain.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Wall Y-Raise:</div>
+          <div>
+            3 set x 15-20 repetisi (tanpa dumbbell, fokus aktivasi otot)
+          </div>
+          <em
+            >Fokus: Bahu belakang, rotator cuff, postur. Menempel di dinding,
+            bentuk 'Y' dengan lengan.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Reverse Snow Angel:</div>
+          <div>3 set x 15-20 repetisi (tanpa dumbbell)</div>
+          <em
+            >Fokus: Punggung atas, bahu belakang. Berbaring telungkup, gerakan
+            seperti 'snow angel'.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Russian Twist (dengan Dumbbell):</div>
+          <div>3 set x 20-30 repetisi (total)</div>
+          <em>Fokus: Oblique. Jaga kaki terangkat jika mampu, putar badan.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Side Plank (dengan Hip Dip):</div>
+          <div>3 set x 30-45 detik per sisi</div>
+          <em>Fokus: Oblique, stabilitas lateral core.</em>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="exercise-group">
+        <h3>
+          <i class="fas fa-bed"></i> Kamis - Total Rest / Active Recovery (Light
+          Stretching)
+        </h3>
+        <div class="exercise-item">
+          <div class="exercise-name">Tujuan:</div>
+          <div>
+            Pemulihan penuh sistem saraf pusat dan otot. Hindari stres tambahan.
+          </div>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Opsional (Jika tubuh terasa segar):</div>
+          <ul class="nested-list">
+            <li>
+              <strong>Gentle Mobility &amp; Stretching (15-20 menit):</strong>
+              <ul class="nested-list">
+                <li>Deep Breathing (perut) – 3-5 menit</li>
+                <li>Cat-Cow Stretch – 10 repetisi</li>
+                <li>Cobra Stretch – 30 detik x 3</li>
+                <li>Child's Pose – 30 detik x 3</li>
+                <li>
+                  Hip Flexor Stretch (Lunge Stretch) – 30 detik per sisi x 2
+                </li>
+                <li>
+                  Hamstring Stretch (Standing/Seated) – 30 detik per sisi x 2
+                </li>
+                <li>Piriformis Stretch (Figure-4) – 30 detik per sisi x 2</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Foam Rolling (jika ada):</strong> Fokus pada paha,
+              punggung atas, dan glutes.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="exercise-group">
+        <h3>
+          <i class="fas fa-sync-alt"></i> Jumat - Full Body Hypertrophy + Core
+          Stability
+        </h3>
+        <p>
+          <strong
+            >Lakukan dalam bentuk sirkuit jika ingin meningkatkan intensitas
+            kardio, atau sebagai latihan terpisah dengan istirahat 60-90 detik
+            antar set.</strong
+          >
+        </p>
+        <div class="exercise-item">
+          <div class="exercise-name">Dumbbell Clean & Press:</div>
+          <div>4 set x 8-10 repetisi</div>
+          <em
+            >Fokus: Kekuatan eksplosif, seluruh tubuh. Dari lantai ke bahu
+            (clean), lalu tekan ke atas (press).</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Renegade Row:</div>
+          <div>
+            3 set x 8-10 repetisi per sisi (Posisi Plank, lalu row dumbbell)
+          </div>
+          <em
+            >Fokus: Punggung, core stabilitas anti-rotasi. Jaga pinggul
+            stabil.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Reverse Lunge with Dumbbells:</div>
+          <div>3 set x 10-12 repetisi per sisi</div>
+          <em
+            >Fokus: Kaki, glutes, keseimbangan. Lebih ramah lutut dari forward
+            lunge.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Push-Up (Standard/Kneeling):</div>
+          <div>3 set x Maksimal Repetisi (hingga form jelek/gagal)</div>
+          <em>Fokus: Dada, bahu, triceps. Jaga badan lurus seperti papan.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Alternating Bicep Curl:</div>
+          <div>3 set x 10-12 repetisi per lengan</div>
+          <em>Fokus: Biceps. Fokus kontraksi, kontrol saat menurunkan.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Triceps Push-Up (Close Grip):</div>
+          <div>3 set x Maksimal Repetisi</div>
+          <em>Fokus: Triceps. Siku rapat ke badan.</em>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Dead Bug:</div>
+          <div>
+            3 set x 10-12 repetisi per sisi (gerakan perlahan dan terkontrol)
+          </div>
+          <em
+            >Fokus: Stabilitas core, koordinasi. Jaga punggung bawah menempel
+            lantai.</em
+          >
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Plank Shoulder Tap:</div>
+          <div>3 set x 10-12 repetisi per sisi</div>
+          <em>Fokus: Stabilitas core, bahu. Minimalisasi gerakan pinggul.</em>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="exercise-group">
+        <h3>
+          <i class="fas fa-running"></i> Sabtu - Kardio Intensity (Elliptical
+          HIIT) + Core Power
+        </h3>
+        <div class="exercise-item">
+          <div class="exercise-name">Pemanasan (5 menit) di elliptical:</div>
+          <div>Laju ringan.</div>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Elliptical HIIT (High Intensity Interval Training):
+          </div>
+          <div>20 menit</div>
+          <ul class="nested-list">
+            <li>
+              <strong>Interval:</strong> 1 menit
+              <strong>Sprint (80-90% usaha maksimal)</strong> / 1 menit
+              <strong>Recovery (Laju ringan)</strong>
+            </li>
+            <li>Ulangi 10 kali.</li>
+            <li>
+              <em
+                >Tujuan: Bakar kalori, tingkatkan daya tahan kardio. Dorong
+                dirimu di fase sprint!</em
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Pendinginan (5 menit) di elliptical:</div>
+          <div>Laju ringan, lalu stretching.</div>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Core Power Circuit (3 Ronde, tanpa istirahat antar gerakan, 60 detik
+            antar ronde):
+          </div>
+          <ul class="nested-list">
+            <li>
+              <strong>Mountain Climbers:</strong> 30 detik (cepat, jaga core
+              aktif)
+            </li>
+            <li>
+              <strong>Bicycle Crunches:</strong> 30 detik (fokus sentuhan
+              siku-lutut, rotasi core)
+            </li>
+            <li>
+              <strong>Dumbbell Sit-Up (pegang dumbbell di dada):</strong> 10-12
+              repetisi
+            </li>
+            <li><strong>Forearm Plank:</strong> 45-60 detik</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="exercise-group">
+        <h3>
+          <i class="fas fa-couch"></i> Minggu - Total Rest / Mobility & Gentle
+          Stretching
+        </h3>
+        <div class="exercise-item">
+          <div class="exercise-name">Tujuan:</div>
+          <div>
+            Pemulihan menyeluruh, mempersiapkan tubuh untuk minggu berikutnya.
+          </div>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">
+            Opsional (jika benar-benar ingin bergerak ringan):
+          </div>
+          <ul class="nested-list">
+            <li>
+              <strong>Mobility Routine (15-20 menit):</strong>
+              <ul class="nested-list">
+                <li>Spinal Twists (Seated/Lying)</li>
+                <li>Pigeon Pose (untuk peregangan pinggul dalam)</li>
+                <li>Butterfly Stretch</li>
+                <li>Wrist &amp; Ankle Circles</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Fokus pada pernapasan diafragma:</strong> Ini membantu
+              relaksasi dan pemulihan sistem saraf.
+            </li>
+          </ul>
+        </div>
+        <div class="exercise-item">
+          <div class="exercise-name">Penting:</div>
+          <div>
+            Dengarkan tubuhmu. Jika terasa lelah, istirahat total adalah yang
+            terbaik.
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="note-box progressive-overload">
+        <h2>
+          <i class="fas fa-chart-line"></i> Progres Mingguan (Progressive
+          Overload)
+        </h2>
+        <p>Ini adalah kunci untuk terus membangun otot!</p>
+        <ol>
+          <li>
+            <strong>Minggu 1-4 (Fase Fondasi):</strong> Fokus pada penguasaan
+            form yang benar untuk setiap gerakan. Catat berapa banyak repetisi
+            yang kamu lakukan di setiap set.
+          </li>
+          <li>
+            <strong>Minggu 5-8 (Fase Peningkatan Volume):</strong>
+            <ul class="nested-list">
+              <li>
+                <strong>Tingkatkan repetisi:</strong> Jika kamu sudah nyaman
+                dengan form dan repetisi di rentang yang disarankan (misal 10
+                repetisi), coba tambahkan 1-2 repetisi di setiap set (jadi 11-12
+                repetisi).
+              </li>
+              <li>
+                <strong>Tingkatkan set:</strong> Untuk latihan utama (set 4),
+                jika kamu masih punya tenaga, tambahkan 1 set lagi.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Minggu 9-12 (Fase Intensitas):</strong>
+            <ul class="nested-list">
+              <li>
+                <strong>Kurangi waktu istirahat:</strong> Kurangi istirahat
+                antar set menjadi 45-60 detik untuk meningkatkan kepadatan
+                latihan.
+              </li>
+              <li>
+                <strong>Variasi Tempo:</strong> Eksperimen dengan tempo yang
+                lebih lambat di fase eksentrik (misal 4-5 detik turun).
+              </li>
+              <li>
+                <strong
+                  >Super/Drop Set (opsional, jika dumbbell 10kg terlalu
+                  ringan):</strong
+                >
+                Lakukan dua latihan yang menargetkan otot yang sama tanpa
+                istirahat di antaranya (supersets). Contoh: Dumbbell Floor Press
+                langsung ke Push-up.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Tracking:</strong>
+            <ul class="nested-list">
+              <li>
+                <strong>Log Latihan:</strong> Gunakan buku catatan atau aplikasi
+                untuk mencatat jumlah set, repetisi, dan beban (dumbbell 10kg).
+                Ini sangat penting untuk melihat progresmu.
+              </li>
+              <li>
+                <strong>Foto Progres:</strong> Ambil foto tubuh (depan, samping,
+                belakang) setiap 2-4 minggu di waktu dan kondisi cahaya yang
+                sama. Ini motivasi besar!
+              </li>
+              <li>
+                <strong>Ukuran Tubuh (opsional):</strong> Ukur lingkar lengan,
+                dada, pinggang, paha setiap bulan.
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+
+      <hr />
+
+      <div class="note-box">
+        <h2>
+          <i class="fas fa-lightbulb"></i> Tips Tambahan untuk "Beast Mode"
+        </h2>
+        <ul>
+          <li>
+            <strong>Nutrisi adalah Raja:</strong>
+            <ul class="nested-list">
+              <li>
+                <strong>Protein Tinggi:</strong> Pastikan asupan protein cukup
+                (sekitar 1.6-2.2 gram per kg berat badanmu) untuk pemulihan dan
+                pertumbuhan otot. Sumber: telur, dada ayam, ikan, tahu, tempe,
+                whey protein (jika pakai).
+              </li>
+              <li>
+                <strong>Karbohidrat Kompleks:</strong> Untuk energi (nasi merah,
+                ubi, roti gandum, oatmeal).
+              </li>
+              <li>
+                <strong>Lemak Sehat:</strong> Penting untuk hormon (alpukat,
+                kacang-kacangan, minyak zaitun).
+              </li>
+              <li>
+                <strong>Defisit Kalori Ringan/Maintenance:</strong> Karena
+                tujuanmu juga perut sixpack, tetap perhatikan asupan kalori.
+                Mungkin sedikit di bawah maintenance atau pas maintenance, tapi
+                fokus pada makanan bersih dan padat nutrisi.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Hidrasi:</strong> Minum air yang cukup sepanjang hari.
+          </li>
+          <li>
+            <strong>Tidur Cukup:</strong> Targetkan 7-9 jam tidur berkualitas
+            setiap malam. Ini adalah saat ototmu pulih dan tumbuh.
+          </li>
+          <li>
+            <strong>Dengarkan Tubuh:</strong> Jika ada nyeri (bukan pegal otot
+            biasa), istirahat atau modifikasi latihan. Jangan paksakan diri.
+          </li>
+          <li>
+            <strong>Konsistensi:</strong> Ini adalah kunci utama. Lebih baik
+            latihan secara konsisten dengan intensitas sedang daripada
+            intensitas tinggi tapi hanya sesekali.
+          </li>
+          <li>
+            <strong>Variasi:</strong> Setelah 2-3 bulan, pertimbangkan untuk
+            mengganti beberapa latihan atau pola repetisi untuk memberikan
+            stimulus baru pada otot.
+          </li>
+          <li>
+            <strong>Mind-Muscle Connection:</strong> Saat melakukan latihan,
+            fokus pada otot yang sedang dilatih. Rasakan kontraksinya. Ini
+            sangat membantu pertumbuhan otot.
+          </li>
+          <li>
+            <strong>Peregangan &amp; Mobility:</strong> Jangan lupakan sesi
+            mobility dan peregangan. Ini menjaga fleksibilitas, mencegah cedera,
+            dan meningkatkan kualitas gerakan.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
