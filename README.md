@@ -1,10 +1,12 @@
-# 💪 Program Transformasi 12 Minggu by Ersan
+# 🏋️ Program Transformasi 12 Minggu by Ersan
 
-Panduan lengkap 2 fase latihan dan meal plan:
+Panduan lengkap 3 bulan latihan **Hypertrophy + Strength + Core + Cardio**
+dengan peralatan sederhana. Cocok untuk kamu yang ingin membangun massa otot,
+meningkatkan kekuatan, dan menjaga kesehatan kardiovaskular.
 
 📌 **Lihat versi web:**
 
-- [📄 Program Latihan](https://ersankarimi.github.io/ersan-bodyproject/programs-styled.html)
+- [📄 Program Latihan](https://ersankarimi.github.io/ersan-bodyproject/programs.html)
 - [🥗 Meal Plan Harian](https://ersankarimi.github.io/ersan-bodyproject/meal-plans.html)
 
 📌 **Lihat versi PDF:**
@@ -14,25 +16,52 @@ Panduan lengkap 2 fase latihan dan meal plan:
 
 ---
 
-## 🧭 Ringkasan Program
+## 🎯 Tujuan Program
 
-| Fase       | Durasi   | Fokus Utama                                    | Peralatan                    |
-| ---------- | -------- | ---------------------------------------------- | ---------------------------- |
-| Beast Mode | 8 Minggu | Hypertrophy, kekuatan, core, dan definisi otot | Dumbbell 10kg, matras, kursi |
+- Hypertrophy (massa otot bertambah dengan progresif overload)
+- Kekuatan & daya tahan otot
+- Core & abs lebih kuat (six-pack oriented)
+- Lengan lebih berisi, bahu lebar, postur lebih tegak
+- Kesehatan jantung & stamina lewat lari mingguan
+- Fleksibilitas & pemulihan optimal
 
 ---
 
-## 🏋️‍♂️ Jadwal Latihan Mingguan
+## 🛠️ Peralatan yang Dibutuhkan
 
-| Hari   | Fase Reset (Minggu 1-4)                   | Fase Beast Mode (Minggu 5-12)              |
-| ------ | ----------------------------------------- | ------------------------------------------ |
-| Senin  | Upper Body + Core                         | Push Strength (Dada, Bahu, Triceps) + Core |
-| Selasa | HIIT + Wall Sit/Plank + Glutes            | Lower Body & Glutes + Core                 |
-| Rabu   | Lower Body + Core                         | Pull Strength (Punggung, Biceps) + Core    |
-| Kamis  | Yoga / Istirahat Aktif                    | Total Rest / Stretching                    |
-| Jumat  | Full Body + Core                          | Full Body Hypertrophy + Core Stability     |
-| Sabtu  | Steady State Cardio + Bodyweight Strength | Elliptical HIIT + Core Power Circuit       |
-| Minggu | Istirahat                                 | Total Rest / Mobility                      |
+- Dumbbell 5-10 kg (minimal 1 buah untuk **single arm**)
+- Matras yoga
+- Kursi/bench (untuk dip, step up, hip thrust)
+
+---
+
+## 📊 Skema Progression 1-3 Bulan
+
+| Bulan               | Reps Range | Set | Fokus                                                 |
+| ------------------- | ---------- | --- | ----------------------------------------------------- |
+| **1 (Minggu 1-4)**  | 8-12       | 3   | Adaptasi teknik, form benar, istirahat 60-90 detik    |
+| **2 (Minggu 5-8)**  | 10-15      | 3-4 | Tambah volume, kurangi rest, variasi core             |
+| **3 (Minggu 9-12)** | 12-20      | 4   | Intensitas tinggi, tempo lambat, set terakhir failure |
+
+- **Rest antar set**: 45-90 detik
+- **Tempo bulan 3**: turunkan beban 3-4 detik → kontraksi maksimal
+
+---
+
+## 📅 Jadwal Mingguan
+
+| Hari       | Fokus Latihan                           |
+| ---------- | --------------------------------------- |
+| **Senin**  | Push (Chest, Shoulders, Triceps + Core) |
+| **Selasa** | Pull (Back, Biceps + Core)              |
+| **Rabu**   | Active Recovery (Yoga/Stretch/Jalan)    |
+| **Kamis**  | Legs + Core                             |
+| **Jumat**  | Arms & Shoulders Hypertrophy + Core     |
+| **Sabtu**  | Full Body + Cardio ringan               |
+| **Minggu** | Running 5-7K (easy-moderate pace)       |
+
+> Detail lengkap latihan per hari bisa dilihat di
+> [📄 Program Latihan](./programs.pdf).
 
 ---
 
@@ -47,7 +76,7 @@ Panduan lengkap 2 fase latihan dan meal plan:
 | **Snack Opsional** | Telur rebus                         | 70     | 6g      |
 | **Total**          |                                     | 1300   | 77g     |
 
-### 🔁 Tambahan Protein (Jika Target: ~140-150g)
+### 🔁 Tambahan Protein (Target 140-150g)
 
 | Sumber Protein     | Porsi   | Kalori | Protein |
 | ------------------ | ------- | ------ | ------- |
@@ -57,39 +86,21 @@ Panduan lengkap 2 fase latihan dan meal plan:
 
 ---
 
-## 📈 Progresif Overload Mingguan
+## 🔑 Tips Penting
 
-| Minggu | Fokus                                |
-| ------ | ------------------------------------ |
-| 1-2    | Teknik, form, istirahat 60 detik     |
-| 3-4    | Tambah repetisi, istirahat 30-45 dtk |
-| 5-8    | Tambah volume & variasi              |
-| 9-12   | Super/drop set, variasi tempo        |
-
-**Tracking yang disarankan:**
-
-- Catat repetisi/set/beban
-- Foto progres (setiap 2-4 minggu)
-- Ukur lingkar lengan, dada, pinggang, paha
-
----
-
-## 🧠 Tips Sukses
-
-1. **Protein cukup:** 1.6-2.2g/kg BB
-2. **Kalori terkontrol:** defisit ringan atau maintenance
-3. **Tidur 7-9 jam:** penting untuk pemulihan
-4. **Mind-muscle connection:** rasakan kontraksi otot
-5. **Mobility & stretching:** jangan dilewatkan
-6. **Konsisten > Sempurna**
+- **Progressive Overload**: tambah reps / set / kurangi rest tiap minggu
+- **Mind-Muscle Connection**: rasakan kontraksi otot tiap gerakan
+- **Core hampir tiap hari** → abs lebih cepat defined
+- **Protein cukup**: 1.6-2.2 g/kgBB
+- **Recovery**: tidur 7-9 jam per malam
+- **Cardio Mingguan (lari 5-7K)**: pace nyaman, bisa sambil ngobrol
 
 ---
 
 ## 📎 File Lengkap
 
-- [📄 Reset Workout Weeks 1-4](./programs[1-4].pdf)
-- [📄 Beast Mode Weeks 5-8](./programs[5-8].pdf)
-- [🥗 Meal Plan](./meal-plans.pdf)
+- [📄 Program Latihan (PDF)](./programs.pdf)
+- [🥗 Meal Plan (PDF)](./meal-plans.pdf)
 
 ---
 
@@ -102,4 +113,5 @@ tubuh dengan alat sederhana namun hasil nyata.
 - 📸 [Instagram](https://www.instagram.com/ersankarimi/)
 - 💻 [GitHub](https://github.com/ersankarimi)
 
-> Semangat terus & tetap progresif. 💥 Konsistensi akan mengalahkan segalanya.
+> Konsistensi lebih penting daripada kesempurnaan. Jalani step by step, hasil
+> akan mengikuti. 💥
