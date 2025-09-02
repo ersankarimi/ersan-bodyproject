@@ -48,7 +48,7 @@
 1. [Push Up](https://fitbod.me/exercises/push-up) - 3-4 set x 8-20
 2. [Single Arm Floor Press](https://fitbod.me/exercises/single-arm-floor-press) -
    3-4 set x 8-15/arm
-3. [Dumbbell Shoulder Raise](https://fitbod.me/exercises/dumbbell-shoulder-raise) -
+3. [Dumbbell Lateral Raise](https://fitbod.me/exercises/dumbbell-lateral-raise) -
    3-4 set x 10-20
 4. [Seated Tricep Press](https://fitbod.me/exercises/seated-tricep-press) - 3-4
    set x 8-15
@@ -61,11 +61,11 @@
 
 1. [Dumbbell Bicep Curl](https://fitbod.me/exercises/dumbbell-bicep-curl) - 3-4
    set x 10-20
-2. [Hammer Curl](https://fitbod.me/exercises/hammer-curl) - 3-4 set x 10-15
-3. [Cross Body Hammer Curl](https://fitbod.me/exercises/cross-body-hammer-curl) -
+2. [Hammer Curls](https://fitbod.me/exercises/hammer-curls) - 3-4 set x 10-15
+3. [Cross Body Hammer Curls](https://fitbod.me/exercises/cross-body-hammer-curls) -
    3-4 set x 10-15/arm
-4. [Dumbbell Shrug](https://fitbod.me/exercises/dumbbell-shrug) - 3-4 set x
-   15-20
+4. [Bodyweight Squat Hold](https://fitbod.me/exercises/bodyweight-squat-hold) -
+   3-4 set x 15-20
 5. [Concentration Curl](https://fitbod.me/exercises/concentration-curl) - 3-4
    set x 8-15/arm
 6. **Core Circuit (2-3 round)**
@@ -88,10 +88,11 @@
 1. [Dumbbell Goblet Squat](https://fitbod.me/exercises/dumbbell-goblet-squat) -
    3-4 set x 10-20
 2. [Lunge](https://fitbod.me/exercises/lunge) - 3-4 set x 10-15/leg
-3. [Step Up](https://fitbod.me/exercises/step-up) - 3-4 set x 10-15/leg
+3. [Single Dumbbell Sumo Squat](https://fitbod.me/exercises/single-dumbbell-sumo-squat) -
+   3-4 set x 10-15/leg
 4. [Dumbbell Hip Thrust](https://fitbod.me/exercises/dumbbell-hip-thrust) - 3-4
    set x 10-15
-5. [Dumbbell Good Morning](https://fitbod.me/exercises/dumbbell-good-morning) -
+5. [Standing Single Arm Dumbbell Shoulder Press](https://fitbod.me/exercises/standing-single-arm-dumbbell-shoulder-press) -
    3-4 set x 10-15
 6. [Wall Sit](https://fitbod.me/exercises/wall-sit) - 2-3x30-60 detik
 7. [Scissor Kick](https://fitbod.me/exercises/scissor-kick) - 3x15-20
@@ -100,7 +101,7 @@
 
 ### **Jumat - Arms & Shoulders Hypertrophy**
 
-1. [Waiter Curl](https://fitbod.me/exercises/waiter-curl) - 3-4 set x 10-15
+1. [Waiter Curls](https://fitbod.me/exercises/waiter-curls) - 3-4 set x 10-15
 2. [Biceps Curl To Shoulder Press](https://fitbod.me/exercises/biceps-curl-to-shoulder-press) -
    3-4 set x 8-12
 3. [Single Arm Overhead Press](https://fitbod.me/exercises/single-arm-overhead-press) -
@@ -119,9 +120,9 @@
 
 1. [Dumbbell Squat To Shoulder Press](https://fitbod.me/exercises/dumbbell-squat-to-shoulder-press) -
    3-4 set x 10-15
-2. [Single Dumbbell Power Clean](https://fitbod.me/exercises/single-dumbbell-power-clean) -
+2. [Seated Single Arm Dumbbell Front Press](https://fitbod.me/exercises/seated-single-arm-dumbbell-front-press) -
    3-4 set x 8-12
-3. [Air Squat](https://fitbod.me/exercises/air-squat) - 3-4 set x 15-20
+3. [Air Squats](https://fitbod.me/exercises/air-squats) - 3-4 set x 15-20
 4. [Single Arm Floor Press](https://fitbod.me/exercises/single-arm-floor-press) -
    3-4 set x 10-15/arm
 5. [Plank](https://fitbod.me/exercises/plank) - 3x45-60 detik
