@@ -1,0 +1,1724 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Program workout rumahan 12 minggu dengan satu dumbbell 5 kg, empat gerakan per sesi, dan progresi yang terstruktur."
+    />
+    <meta name="theme-color" content="#183c32" />
+    <title>Program Workout 12 Minggu</title>
+
+    <style>
+      :root {
+        color-scheme: light;
+        --page: #f4f3ed;
+        --surface: #fffef9;
+        --surface-soft: #ebece4;
+        --ink: #17211d;
+        --muted: #637069;
+        --forest: #183c32;
+        --forest-light: #255747;
+        --lime: #d8f36a;
+        --mint: #a8dfc6;
+        --orange: #ff9d55;
+        --line: #d9ddd4;
+        --shadow: 0 18px 50px rgba(22, 49, 40, 0.09);
+        --radius-lg: 28px;
+        --radius-md: 18px;
+        --radius-sm: 12px;
+        --max-width: 1120px;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at 10% 0%, rgba(216, 243, 106, 0.2), transparent 30rem),
+          var(--page);
+        color: var(--ink);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        line-height: 1.65;
+        text-rendering: optimizeLegibility;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      button,
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      :focus-visible {
+        outline: 3px solid var(--orange);
+        outline-offset: 3px;
+      }
+
+      .skip-link {
+        position: fixed;
+        left: 1rem;
+        top: 1rem;
+        z-index: 100;
+        padding: 0.7rem 1rem;
+        border-radius: 999px;
+        background: var(--lime);
+        color: var(--forest);
+        font-weight: 800;
+        transform: translateY(-180%);
+        transition: transform 160ms ease;
+      }
+
+      .skip-link:focus {
+        transform: translateY(0);
+      }
+
+      .hero {
+        position: relative;
+        overflow: hidden;
+        isolation: isolate;
+        padding: 5rem 1.25rem 4.5rem;
+        background: var(--forest);
+        color: #f7fbf7;
+      }
+
+      .hero::before,
+      .hero::after {
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+        content: "";
+      }
+
+      .hero::before {
+        width: 32rem;
+        height: 32rem;
+        right: -12rem;
+        top: -15rem;
+        border: 5rem solid rgba(216, 243, 106, 0.12);
+      }
+
+      .hero::after {
+        width: 17rem;
+        height: 17rem;
+        left: -9rem;
+        bottom: -11rem;
+        background: rgba(168, 223, 198, 0.1);
+      }
+
+      .hero-inner,
+      .nav-inner,
+      main,
+      .footer-inner {
+        width: min(100%, var(--max-width));
+        margin-inline: auto;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.55rem;
+        margin: 0 0 1.15rem;
+        color: var(--lime);
+        font-size: 0.78rem;
+        font-weight: 850;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow::before {
+        width: 2rem;
+        height: 2px;
+        background: currentColor;
+        content: "";
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 800px;
+        margin-bottom: 1.15rem;
+        font-size: clamp(2.7rem, 7vw, 5.8rem);
+        font-weight: 900;
+        letter-spacing: -0.065em;
+        line-height: 0.95;
+      }
+
+      .hero-copy {
+        max-width: 680px;
+        margin-bottom: 1.8rem;
+        color: rgba(247, 251, 247, 0.76);
+        font-size: clamp(1rem, 2vw, 1.18rem);
+      }
+
+      .hero-stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.65rem;
+      }
+
+      .hero-stat {
+        padding: 0.58rem 0.9rem;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.07);
+        color: #fff;
+        font-size: 0.88rem;
+        font-weight: 750;
+        backdrop-filter: blur(8px);
+      }
+
+      .hero-stat--accent {
+        border-color: var(--lime);
+        background: var(--lime);
+        color: var(--forest);
+      }
+
+      .site-nav {
+        position: sticky;
+        z-index: 20;
+        top: 0;
+        border-bottom: 1px solid rgba(24, 60, 50, 0.12);
+        background: rgba(244, 243, 237, 0.9);
+        backdrop-filter: blur(16px);
+      }
+
+      .nav-inner {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        min-height: 64px;
+        padding: 0.7rem 1.25rem;
+      }
+
+      .brand {
+        flex: 0 0 auto;
+        color: var(--forest);
+        font-weight: 900;
+        letter-spacing: -0.03em;
+        text-decoration: none;
+      }
+
+      .nav-links {
+        display: flex;
+        flex: 1;
+        gap: 0.25rem;
+        overflow-x: auto;
+        scrollbar-width: none;
+      }
+
+      .nav-links::-webkit-scrollbar {
+        display: none;
+      }
+
+      .nav-links a {
+        flex: 0 0 auto;
+        padding: 0.48rem 0.68rem;
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 720;
+        text-decoration: none;
+      }
+
+      .nav-links a:hover {
+        background: var(--surface-soft);
+        color: var(--forest);
+      }
+
+      .print-button {
+        flex: 0 0 auto;
+        padding: 0.58rem 0.85rem;
+        border: 0;
+        border-radius: 999px;
+        background: var(--forest);
+        color: #fff;
+        cursor: pointer;
+        font: inherit;
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+
+      main {
+        padding: 4.5rem 1.25rem 6rem;
+      }
+
+      section {
+        scroll-margin-top: 90px;
+      }
+
+      section + section {
+        margin-top: 5.5rem;
+      }
+
+      .section-heading {
+        display: grid;
+        grid-template-columns: minmax(0, 0.72fr) minmax(280px, 0.28fr);
+        gap: 2rem;
+        align-items: end;
+        margin-bottom: 2rem;
+      }
+
+      .kicker {
+        margin-bottom: 0.55rem;
+        color: var(--forest-light);
+        font-size: 0.74rem;
+        font-weight: 850;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        margin-bottom: 0;
+        font-size: clamp(2rem, 5vw, 3.6rem);
+        font-weight: 900;
+        letter-spacing: -0.055em;
+        line-height: 1;
+      }
+
+      .section-lead {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 0.98rem;
+      }
+
+      .overview-grid,
+      .recovery-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .panel,
+      .workout-card,
+      .phase-card {
+        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        background: var(--surface);
+        box-shadow: 0 7px 24px rgba(22, 49, 40, 0.045);
+      }
+
+      .panel {
+        padding: clamp(1.4rem, 3vw, 2rem);
+      }
+
+      .panel h3,
+      .phase-card h3 {
+        margin-bottom: 1rem;
+        color: var(--forest);
+        font-size: 1.05rem;
+        font-weight: 850;
+        letter-spacing: -0.02em;
+      }
+
+      .clean-list {
+        display: grid;
+        gap: 0.78rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .clean-list li {
+        position: relative;
+        padding-left: 1.5rem;
+      }
+
+      .clean-list li::before {
+        position: absolute;
+        left: 0;
+        top: 0.62em;
+        width: 0.55rem;
+        height: 0.55rem;
+        border-radius: 50%;
+        background: var(--lime);
+        box-shadow: 0 0 0 3px rgba(216, 243, 106, 0.3);
+        content: "";
+      }
+
+      .schedule-grid {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(130px, 1fr));
+        gap: 0.75rem;
+        overflow-x: auto;
+        padding: 0.15rem 0.15rem 0.75rem;
+        scroll-snap-type: x proximity;
+      }
+
+      .day-card {
+        position: relative;
+        min-height: 190px;
+        padding: 1.25rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        background: var(--surface);
+        scroll-snap-align: start;
+      }
+
+      .day-card--rest {
+        background: var(--surface-soft);
+      }
+
+      .day-card--run {
+        border-color: var(--forest);
+        background: var(--forest);
+        color: #fff;
+      }
+
+      .day-number {
+        display: inline-grid;
+        place-items: center;
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 1.1rem;
+        border-radius: 50%;
+        background: var(--lime);
+        color: var(--forest);
+        font-size: 0.8rem;
+        font-weight: 900;
+      }
+
+      .day-card h3 {
+        margin-bottom: 0.45rem;
+        font-size: 1rem;
+        line-height: 1.25;
+      }
+
+      .day-card p {
+        margin-bottom: 0.9rem;
+        color: var(--muted);
+        font-size: 0.84rem;
+        line-height: 1.5;
+      }
+
+      .day-card--run p {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .duration {
+        position: absolute;
+        right: 1.1rem;
+        bottom: 1rem;
+        left: 1.1rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid var(--line);
+        color: var(--forest-light);
+        font-size: 0.76rem;
+        font-weight: 850;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .day-card--run .duration {
+        border-color: rgba(255, 255, 255, 0.16);
+        color: var(--lime);
+      }
+
+      .guide-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.8rem;
+        margin-top: 1.5rem;
+      }
+
+      .guide-item {
+        padding: 1rem 1.1rem;
+        border-left: 4px solid var(--mint);
+        border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+        background: rgba(255, 254, 249, 0.7);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .guide-item strong {
+        display: block;
+        margin-bottom: 0.15rem;
+        color: var(--ink);
+      }
+
+      .warmup {
+        margin-top: 1.25rem;
+        padding: 1.4rem;
+        border-radius: var(--radius-md);
+        background: var(--forest);
+        color: #fff;
+      }
+
+      .warmup-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .warmup h3 {
+        margin-bottom: 0;
+        font-size: 1.05rem;
+      }
+
+      .warmup-head span {
+        color: var(--lime);
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+
+      .warmup-list {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0.65rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: warmup;
+      }
+
+      .warmup-list li {
+        padding: 0.85rem;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: var(--radius-sm);
+        background: rgba(255, 255, 255, 0.06);
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 0.82rem;
+        counter-increment: warmup;
+      }
+
+      .warmup-list li::before {
+        display: block;
+        margin-bottom: 0.35rem;
+        color: var(--lime);
+        font-weight: 900;
+        content: "0" counter(warmup);
+      }
+
+      .warmup-list strong {
+        display: block;
+        color: #fff;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        background: var(--surface);
+        box-shadow: 0 7px 24px rgba(22, 49, 40, 0.045);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 1rem 1.15rem;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: var(--forest);
+        color: #fff;
+        font-size: 0.77rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      tbody tr:last-child td {
+        border-bottom: 0;
+      }
+
+      tbody tr:hover {
+        background: rgba(216, 243, 106, 0.09);
+      }
+
+      td:first-child {
+        color: var(--forest);
+        font-weight: 850;
+        white-space: nowrap;
+      }
+
+      td a {
+        color: var(--forest-light);
+        font-weight: 760;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+
+      td small {
+        display: block;
+        margin-top: 0.18rem;
+        color: var(--muted);
+      }
+
+      .note {
+        margin-top: 0.9rem;
+        padding: 0.95rem 1.1rem;
+        border-radius: var(--radius-sm);
+        background: #e8ebdf;
+        color: #4f5c55;
+        font-size: 0.9rem;
+      }
+
+      .workout-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .workout-card {
+        overflow: hidden;
+      }
+
+      .workout-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 1.5rem 1.5rem 1.2rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .workout-day {
+        margin-bottom: 0.2rem;
+        color: var(--forest-light);
+        font-size: 0.74rem;
+        font-weight: 900;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .workout-header h3 {
+        margin-bottom: 0.25rem;
+        font-size: 1.35rem;
+        letter-spacing: -0.035em;
+      }
+
+      .workout-header p {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+
+      .count-badge {
+        display: grid;
+        flex: 0 0 auto;
+        place-items: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background: var(--lime);
+        color: var(--forest);
+        font-size: 0.78rem;
+        font-weight: 900;
+        line-height: 1.1;
+        text-align: center;
+      }
+
+      .exercise-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: exercise;
+      }
+
+      .exercise {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        gap: 0.8rem;
+        align-items: center;
+        padding: 1.05rem 1.5rem;
+        border-bottom: 1px solid var(--line);
+        counter-increment: exercise;
+      }
+
+      .exercise:last-child {
+        border-bottom: 0;
+      }
+
+      .exercise::before {
+        display: grid;
+        place-items: center;
+        width: 1.85rem;
+        height: 1.85rem;
+        border-radius: 50%;
+        background: var(--surface-soft);
+        color: var(--forest);
+        font-size: 0.74rem;
+        font-weight: 900;
+        content: counter(exercise);
+      }
+
+      .exercise-name {
+        min-width: 0;
+      }
+
+      .exercise-name a,
+      .exercise-name strong {
+        color: var(--ink);
+        font-size: 0.94rem;
+        font-weight: 820;
+        text-decoration-color: var(--mint);
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+      }
+
+      .exercise-name small {
+        display: block;
+        margin-top: 0.15rem;
+        color: var(--muted);
+        font-size: 0.76rem;
+        line-height: 1.45;
+      }
+
+      .set-badge {
+        min-width: 6.8rem;
+        padding: 0.4rem 0.55rem;
+        border-radius: 999px;
+        background: #edf5ec;
+        color: var(--forest-light);
+        font-size: 0.75rem;
+        font-weight: 850;
+        text-align: center;
+        white-space: nowrap;
+      }
+
+      .card-tip {
+        margin: 0;
+        padding: 1rem 1.5rem;
+        border-top: 1px dashed var(--line);
+        background: #faf9f3;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .phases {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 0.75rem;
+      }
+
+      .phase-card {
+        position: relative;
+        overflow: hidden;
+        min-height: 225px;
+        padding: 1.3rem;
+      }
+
+      .phase-card::before {
+        position: absolute;
+        inset: 0 0 auto;
+        height: 5px;
+        background: var(--mint);
+        content: "";
+      }
+
+      .phase-card:nth-child(3)::before,
+      .phase-card:nth-child(4)::before {
+        background: var(--lime);
+      }
+
+      .phase-card:last-child {
+        background: var(--forest);
+        color: #fff;
+      }
+
+      .phase-card:last-child::before {
+        background: var(--orange);
+      }
+
+      .phase-label {
+        margin-bottom: 1rem;
+        color: var(--forest-light);
+        font-size: 0.75rem;
+        font-weight: 900;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      .phase-card:last-child .phase-label {
+        color: var(--orange);
+      }
+
+      .phase-card h3 {
+        margin-bottom: 0.6rem;
+      }
+
+      .phase-card:last-child h3 {
+        color: #fff;
+      }
+
+      .phase-card p {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+
+      .phase-card:last-child p {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .progression-box {
+        display: grid;
+        grid-template-columns: minmax(0, 0.7fr) minmax(280px, 0.3fr);
+        gap: 1.5rem;
+        margin-top: 1.25rem;
+        padding: clamp(1.5rem, 4vw, 2.25rem);
+        border-radius: var(--radius-lg);
+        background: #e8eadf;
+      }
+
+      .progression-box h3 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+      }
+
+      .steps {
+        display: grid;
+        gap: 0.55rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: steps;
+      }
+
+      .steps li {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        counter-increment: steps;
+      }
+
+      .steps li::before {
+        display: grid;
+        flex: 0 0 auto;
+        place-items: center;
+        width: 1.65rem;
+        height: 1.65rem;
+        border-radius: 50%;
+        background: var(--forest);
+        color: var(--lime);
+        font-size: 0.72rem;
+        font-weight: 900;
+        content: counter(steps);
+      }
+
+      .equipment-note {
+        align-self: stretch;
+        margin: 0;
+        padding: 1.2rem;
+        border-radius: var(--radius-md);
+        background: var(--surface);
+        color: var(--muted);
+        font-size: 0.88rem;
+      }
+
+      .equipment-note strong {
+        display: block;
+        margin-bottom: 0.35rem;
+        color: var(--forest);
+      }
+
+      .recovery-card {
+        padding: clamp(1.4rem, 3vw, 2rem);
+        border-radius: var(--radius-lg);
+      }
+
+      .recovery-card:first-child {
+        background: var(--surface);
+        border: 1px solid var(--line);
+      }
+
+      .recovery-card:last-child {
+        background: var(--forest);
+        color: #fff;
+      }
+
+      .recovery-card .workout-day {
+        color: var(--orange);
+      }
+
+      .recovery-card:last-child .workout-day {
+        color: var(--lime);
+      }
+
+      .recovery-card h3 {
+        margin-bottom: 0.4rem;
+        font-size: 1.5rem;
+        letter-spacing: -0.035em;
+      }
+
+      .recovery-card > p {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .recovery-card:last-child > p {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .compact-list {
+        display: grid;
+        gap: 0.6rem;
+        margin: 1.2rem 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .compact-list li {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-bottom: 0.6rem;
+        border-bottom: 1px solid var(--line);
+        font-size: 0.88rem;
+      }
+
+      .compact-list li:last-child {
+        border-bottom: 0;
+      }
+
+      .recovery-card:last-child .compact-list li {
+        border-color: rgba(255, 255, 255, 0.14);
+      }
+
+      .compact-list strong {
+        font-weight: 820;
+      }
+
+      .compact-list span {
+        color: var(--muted);
+        text-align: right;
+      }
+
+      .recovery-card:last-child .compact-list span {
+        color: var(--lime);
+      }
+
+      .tracker-table td {
+        height: 3.35rem;
+      }
+
+      .safety {
+        margin-top: 1.5rem;
+        padding: 1.3rem 1.5rem;
+        border-left: 5px solid var(--orange);
+        border-radius: 0 var(--radius-md) var(--radius-md) 0;
+        background: #fff5eb;
+        color: #695344;
+        font-size: 0.9rem;
+      }
+
+      .safety strong {
+        color: #4d3729;
+      }
+
+      footer {
+        padding: 2.5rem 1.25rem;
+        background: #102a23;
+        color: rgba(255, 255, 255, 0.66);
+      }
+
+      .footer-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      footer p {
+        margin: 0;
+        font-size: 0.85rem;
+      }
+
+      footer a {
+        color: var(--lime);
+        font-weight: 800;
+        text-underline-offset: 3px;
+      }
+
+      @media (max-width: 920px) {
+        .section-heading,
+        .progression-box {
+          grid-template-columns: 1fr;
+        }
+
+        .workout-grid,
+        .overview-grid,
+        .recovery-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .phases {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .warmup-list {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 640px) {
+        .hero {
+          padding-top: 3.8rem;
+        }
+
+        .brand,
+        .print-button {
+          display: none;
+        }
+
+        .nav-inner {
+          padding-inline: 0.75rem;
+        }
+
+        .nav-links {
+          width: 100%;
+        }
+
+        main {
+          padding-top: 3.5rem;
+        }
+
+        section + section {
+          margin-top: 4rem;
+        }
+
+        .guide-grid,
+        .phases {
+          grid-template-columns: 1fr;
+        }
+
+        .phase-card {
+          min-height: auto;
+        }
+
+        .exercise {
+          grid-template-columns: auto minmax(0, 1fr);
+        }
+
+        .set-badge {
+          grid-column: 2;
+          justify-self: start;
+        }
+
+        .footer-inner {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+
+      @media print {
+        :root {
+          --page: #fff;
+          --surface: #fff;
+          --ink: #000;
+          --muted: #444;
+          --line: #bbb;
+        }
+
+        body {
+          background: #fff;
+          font-size: 10pt;
+        }
+
+        .hero {
+          padding: 1.5cm 0;
+          background: #fff;
+          color: #000;
+        }
+
+        .hero::before,
+        .hero::after,
+        .site-nav,
+        .print-button {
+          display: none;
+        }
+
+        .hero-copy,
+        .eyebrow {
+          color: #333;
+        }
+
+        .hero-stat,
+        .hero-stat--accent {
+          border: 1px solid #999;
+          background: #fff;
+          color: #000;
+        }
+
+        main {
+          padding: 1cm 0;
+        }
+
+        section + section {
+          margin-top: 1.2cm;
+        }
+
+        .workout-card,
+        .panel,
+        .phase-card,
+        .table-wrap {
+          break-inside: avoid;
+          box-shadow: none;
+        }
+
+        .schedule-grid {
+          grid-template-columns: repeat(4, 1fr);
+          overflow: visible;
+        }
+
+        .day-card--run,
+        .warmup,
+        .recovery-card:last-child,
+        .phase-card:last-child {
+          border: 1px solid #999;
+          background: #fff;
+          color: #000;
+        }
+
+        .day-card--run p,
+        .warmup-list li,
+        .recovery-card:last-child > p,
+        .phase-card:last-child p {
+          color: #444;
+        }
+
+        .warmup-list strong,
+        .phase-card:last-child h3 {
+          color: #000;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        footer {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Lewati ke isi utama</a>
+
+    <header class="hero" id="top">
+      <div class="hero-inner">
+        <p class="eyebrow">Home workout · 12 weeks</p>
+        <h1>Bangun kuat.<br />Tetap konsisten.</h1>
+        <p class="hero-copy">
+          Program latihan rumahan dengan pembagian upper dan lower body,
+          dirancang agar seluruh tubuh berkembang tanpa membuat sesi terasa
+          terlalu berat.
+        </p>
+        <div class="hero-stats" aria-label="Ringkasan program">
+          <span class="hero-stat hero-stat--accent">4 gerakan per sesi</span>
+          <span class="hero-stat">20–30 menit</span>
+          <span class="hero-stat">1 dumbbell · 5 kg</span>
+          <span class="hero-stat">4 hari latihan utama</span>
+        </div>
+      </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Navigasi halaman">
+      <div class="nav-inner">
+        <a class="brand" href="#top">WORKOUT / 12</a>
+        <div class="nav-links">
+          <a href="#overview">Ringkasan</a>
+          <a href="#schedule">Jadwal</a>
+          <a href="#biceps">Rotasi biceps</a>
+          <a href="#sessions">Sesi</a>
+          <a href="#progression">Progresi</a>
+          <a href="#recovery">Pemulihan</a>
+          <a href="#tracker">Catatan</a>
+        </div>
+        <button class="print-button" type="button" onclick="window.print()">
+          Cetak
+        </button>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <section id="overview">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">01 · Fondasi</p>
+            <h2>Sederhana, tetapi menyeluruh.</h2>
+          </div>
+          <p class="section-lead">
+            Satu dumbbell, ruang lantai, dan kursi kokoh sudah cukup untuk
+            memulai program. Prioritas utamanya adalah teknik dan progres yang
+            konsisten.
+          </p>
+        </div>
+
+        <div class="overview-grid">
+          <article class="panel">
+            <h3>Peralatan</h3>
+            <ul class="clean-list">
+              <li>1 dumbbell 5 kg</li>
+              <li>Kursi atau pijakan yang kokoh dan tidak licin</li>
+              <li>Ruang lantai atau matras</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Tujuan program</h3>
+            <ul class="clean-list">
+              <li>Meningkatkan massa, kekuatan, dan daya tahan otot</li>
+              <li>Membangun core, biceps, triceps, dan bahu</li>
+              <li>Menjaga postur, kebugaran jantung, dan fleksibilitas</li>
+              <li>Menerapkan progressive overload secara bertahap</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="schedule">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">02 · Ritme mingguan</p>
+            <h2>Latih. Pulihkan. Ulangi.</h2>
+          </div>
+          <p class="section-lead">
+            Empat sesi utama dibagi berdasarkan kelompok otot. Rabu menjadi
+            istirahat total; Jumat dan Minggu menjaga mobilitas serta daya tahan.
+          </p>
+        </div>
+
+        <div class="schedule-grid" aria-label="Jadwal latihan mingguan">
+          <article class="day-card">
+            <span class="day-number">Sn</span>
+            <h3>Upper Body A</h3>
+            <p>Dada, punggung atas, bahu, dan biceps.</p>
+            <span class="duration">20–30 menit</span>
+          </article>
+          <article class="day-card">
+            <span class="day-number">Sl</span>
+            <h3>Lower Body A</h3>
+            <p>Kaki, posterior chain, glutes, dan core.</p>
+            <span class="duration">20–30 menit</span>
+          </article>
+          <article class="day-card day-card--rest">
+            <span class="day-number">Rb</span>
+            <h3>Istirahat total</h3>
+            <p>Beri tubuh waktu untuk beradaptasi dan pulih.</p>
+            <span class="duration">Rabu</span>
+          </article>
+          <article class="day-card">
+            <span class="day-number">Km</span>
+            <h3>Upper Body B</h3>
+            <p>Dada, punggung atas, triceps, dan biceps.</p>
+            <span class="duration">20–30 menit</span>
+          </article>
+          <article class="day-card day-card--rest">
+            <span class="day-number">Jm</span>
+            <h3>Active recovery</h3>
+            <p>Jalan santai dan fleksibilitas ringan.</p>
+            <span class="duration">15–25 menit</span>
+          </article>
+          <article class="day-card">
+            <span class="day-number">Sb</span>
+            <h3>Lower Body B</h3>
+            <p>Paha, glutes, betis, dan core.</p>
+            <span class="duration">20–30 menit</span>
+          </article>
+          <article class="day-card day-card--run">
+            <span class="day-number">Mg</span>
+            <h3>Easy run</h3>
+            <p>Lari santai atau kombinasi lari-jalan.</p>
+            <span class="duration">25–40 menit</span>
+          </article>
+        </div>
+
+        <div class="guide-grid">
+          <div class="guide-item">
+            <strong>Istirahat</strong>
+            45–75 detik antarset.
+          </div>
+          <div class="guide-item">
+            <strong>Intensitas</strong>
+            Berhenti dengan sekitar 2 repetisi tersisa.
+          </div>
+          <div class="guide-item">
+            <strong>Gerakan unilateral</strong>
+            Selesaikan sisi kanan dan kiri.
+          </div>
+        </div>
+
+        <aside class="warmup" aria-labelledby="warmup-title">
+          <div class="warmup-head">
+            <h3 id="warmup-title">Pemanasan setiap sesi</h3>
+            <span>4–5 menit</span>
+          </div>
+          <ol class="warmup-list">
+            <li><strong>March in Place</strong>1 × 60 detik</li>
+            <li><strong>Bodyweight Squat</strong>1 × 10 repetisi</li>
+            <li><strong>Hip Hinge</strong>1 × 10 repetisi</li>
+            <li><strong>Arm Circle</strong>10 depan + 10 belakang</li>
+          </ol>
+        </aside>
+      </section>
+
+      <section id="biceps">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">03 · Rotasi empat minggu</p>
+            <h2>Variasi biceps tanpa menumpuk volume.</h2>
+          </div>
+          <p class="section-lead">
+            Senin memakai Slot A dan Kamis memakai Slot B. Setelah minggu ke-4,
+            ulangi siklus yang sama sampai minggu ke-12.
+          </p>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Minggu</th>
+                <th scope="col">Slot A · Senin</th>
+                <th scope="col">Slot B · Kamis</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1, 5, 9</td>
+                <td>
+                  <a href="https://fitbod.me/exercises/dumbbell-bicep-curl">Dumbbell Bicep Curl</a>
+                  <small>2 set × 10–20/lengan</small>
+                </td>
+                <td>
+                  <a href="https://fitbod.me/exercises/hammer-curls">Hammer Curls</a>
+                  <small>2 set × 10–20/lengan</small>
+                </td>
+              </tr>
+              <tr>
+                <td>2, 6, 10</td>
+                <td>
+                  <a href="https://fitbod.me/exercises/cross-body-hammer-curls">Cross Body Hammer Curls</a>
+                  <small>2 set × 10–18/lengan</small>
+                </td>
+                <td>
+                  <a href="https://fitbod.me/exercises/concentration-curl">Concentration Curl</a>
+                  <small>2 set × 10–18/lengan</small>
+                </td>
+              </tr>
+              <tr>
+                <td>3, 7, 11</td>
+                <td>
+                  <a href="https://fitbod.me/exercises/waiter-curls">Waiter Curls</a>
+                  <small>2 set × 12–20</small>
+                </td>
+                <td>
+                  <a href="https://fitbod.me/exercises/biceps-curl-to-shoulder-press">Biceps Curl to Shoulder Press</a>
+                  <small>2 set × 8–15/lengan</small>
+                </td>
+              </tr>
+              <tr>
+                <td>4, 8, 12</td>
+                <td>
+                  <a href="https://fitbod.me/exercises/dumbbell-hammer-pause-curl">Dumbbell Hammer Pause Curl</a>
+                  <small>2 set × 8–15/lengan</small>
+                </td>
+                <td>
+                  <a href="https://fitbod.me/exercises/dumbbell-bicep-curl">Dumbbell Bicep Curl</a>
+                  <small>2 set × 10–20/lengan</small>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">
+          <strong>Deload minggu 12:</strong> setiap slot biceps cukup dilakukan
+          1 set.
+        </p>
+      </section>
+
+      <section id="sessions">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">04 · Sesi utama</p>
+            <h2>Empat gerakan. Fokus penuh.</h2>
+          </div>
+          <p class="section-lead">
+            Jumlah set di bawah berlaku untuk minggu 3–11. Minggu 1–2 dan minggu
+            12 menggunakan penyesuaian pada bagian progresi.
+          </p>
+        </div>
+
+        <div class="workout-grid">
+          <article class="workout-card">
+            <header class="workout-header">
+              <div>
+                <p class="workout-day">Senin</p>
+                <h3>Upper Body A</h3>
+                <p>Dada · punggung atas · bahu · biceps</p>
+              </div>
+              <span class="count-badge">4<br />moves</span>
+            </header>
+            <ol class="exercise-list">
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/push-up">Push Up</a>
+                </div>
+                <span class="set-badge">3 × 8–15</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/prone-t-s">Prone T's</a>
+                  <small>Tahan 1–2 detik di posisi atas.</small>
+                </div>
+                <span class="set-badge">3 × 10–15</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/standing-single-arm-dumbbell-shoulder-press">Standing Single Arm Dumbbell Shoulder Press</a>
+                </div>
+                <span class="set-badge">3 × 10–15/arm</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <strong>Biceps Slot A</strong>
+                  <small>Pilih sesuai rotasi minggu.</small>
+                </div>
+                <span class="set-badge">2 set</span>
+              </li>
+            </ol>
+            <p class="card-tip">
+              Jaga core aktif dan punggung netral. Hindari mengayun badan saat
+              shoulder press atau curl.
+            </p>
+          </article>
+
+          <article class="workout-card">
+            <header class="workout-header">
+              <div>
+                <p class="workout-day">Selasa</p>
+                <h3>Lower Body A</h3>
+                <p>Paha · hamstring · glutes · core</p>
+              </div>
+              <span class="count-badge">4<br />moves</span>
+            </header>
+            <ol class="exercise-list">
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/dumbbell-goblet-squat">Dumbbell Goblet Squat</a>
+                </div>
+                <span class="set-badge">3 × 10–20</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/dumbbell-good-morning">Dumbbell Good Morning</a>
+                  <small>Lutut sedikit ditekuk, pinggul ke belakang.</small>
+                </div>
+                <span class="set-badge">3 × 12–20</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/dumbbell-glute-bridge">Dumbbell Glute Bridge</a>
+                  <small>Tahan 1–2 detik di posisi atas.</small>
+                </div>
+                <span class="set-badge">3 × 12–20</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/dead-bug">Dead Bug</a>
+                </div>
+                <span class="set-badge">3 × 8–12/side</span>
+              </li>
+            </ol>
+            <p class="card-tip">
+              Pada Good Morning, pegang dumbbell di depan dada dan pertahankan
+              punggung netral sepanjang gerakan.
+            </p>
+          </article>
+
+          <article class="workout-card">
+            <header class="workout-header">
+              <div>
+                <p class="workout-day">Kamis</p>
+                <h3>Upper Body B</h3>
+                <p>Dada · punggung atas · triceps · biceps</p>
+              </div>
+              <span class="count-badge">4<br />moves</span>
+            </header>
+            <ol class="exercise-list">
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/single-arm-floor-press">Single Arm Floor Press</a>
+                </div>
+                <span class="set-badge">3 × 10–18/arm</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/prone-w-s">Prone W's</a>
+                  /
+                  <a href="https://fitbod.me/exercises/prone-y-s">Prone Y's</a>
+                  <small>W saat minggu ganjil; Y saat minggu genap.</small>
+                </div>
+                <span class="set-badge">3 × 10–15</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/seated-tricep-press">Seated Tricep Press</a>
+                  <small>Satu dumbbell dipegang kedua tangan.</small>
+                </div>
+                <span class="set-badge">3 × 10–18</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <strong>Biceps Slot B</strong>
+                  <small>Pilih sesuai rotasi minggu.</small>
+                </div>
+                <span class="set-badge">2 set</span>
+              </li>
+            </ol>
+            <p class="card-tip">
+              Prone W's dan Prone Y's adalah satu slot bergantian, sehingga sesi
+              tetap berisi 4 gerakan. Jaga siku ke depan saat tricep press.
+            </p>
+          </article>
+
+          <article class="workout-card">
+            <header class="workout-header">
+              <div>
+                <p class="workout-day">Sabtu</p>
+                <h3>Lower Body B</h3>
+                <p>Paha · glutes · betis · core</p>
+              </div>
+              <span class="count-badge">4<br />moves</span>
+            </header>
+            <ol class="exercise-list">
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/reverse-lunge">Reverse Lunge</a>
+                </div>
+                <span class="set-badge">3 × 8–15/leg</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/step-up">Step Up</a>
+                  <small>Gunakan pijakan yang kokoh dan tidak licin.</small>
+                </div>
+                <span class="set-badge">3 × 10–15/leg</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/single-leg-standing-calf-raise">Single Leg Standing Calf Raise</a>
+                  <small>Pegang kursi untuk menjaga keseimbangan.</small>
+                </div>
+                <span class="set-badge">3 × 12–25/leg</span>
+              </li>
+              <li class="exercise">
+                <div class="exercise-name">
+                  <a href="https://fitbod.me/exercises/plank">Plank</a>
+                  /
+                  <a href="https://fitbod.me/exercises/leg-raise">Leg Raise</a>
+                  <small>Plank saat minggu ganjil; Leg Raise saat minggu genap.</small>
+                </div>
+                <span class="set-badge">3 × 30–60s / 10–15</span>
+              </li>
+            </ol>
+            <p class="card-tip">
+              Plank dan Leg Raise adalah satu slot bergantian. Bila pijakan Step
+              Up tidak aman, ganti dengan Goblet Squat.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="progression">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">05 · Progressive overload</p>
+            <h2>Dua belas minggu, lima fase.</h2>
+          </div>
+          <p class="section-lead">
+            Tambahkan tantangan sedikit demi sedikit. Repetisi yang lebih banyak
+            hanya dihitung jika teknik tetap rapi.
+          </p>
+        </div>
+
+        <div class="phases">
+          <article class="phase-card">
+            <p class="phase-label">Minggu 1–2</p>
+            <h3>Adaptasi</h3>
+            <p>2 set setiap gerakan. Gunakan teknik terkontrol dan sisakan sekitar 3 repetisi.</p>
+          </article>
+          <article class="phase-card">
+            <p class="phase-label">Minggu 3–4</p>
+            <h3>Bangun volume</h3>
+            <p>Ikuti set dan rentang repetisi yang tertulis. Sisakan sekitar 2–3 repetisi.</p>
+          </article>
+          <article class="phase-card">
+            <p class="phase-label">Minggu 5–8</p>
+            <h3>Tambah tantangan</h3>
+            <p>Capai batas repetisi atas, lalu gunakan tempo turun 3 detik atau jeda 1 detik.</p>
+          </article>
+          <article class="phase-card">
+            <p class="phase-label">Minggu 9–11</p>
+            <h3>Fase kuat</h3>
+            <p>Pertahankan set. Sisakan 1–2 repetisi pada set terakhir tanpa merusak teknik.</p>
+          </article>
+          <article class="phase-card">
+            <p class="phase-label">Minggu 12</p>
+            <h3>Deload</h3>
+            <p>2 set per gerakan, slot biceps 1 set, dan sekitar 60–70% repetisi normal.</p>
+          </article>
+        </div>
+
+        <div class="progression-box">
+          <div>
+            <h3>Urutan menambah tantangan</h3>
+            <ol class="steps">
+              <li>Tambah 1–2 repetisi hingga batas atas.</li>
+              <li>Perlambat fase turun menjadi 3 detik.</li>
+              <li>Tambahkan jeda 1–2 detik di posisi tersulit.</li>
+              <li>Perbesar rentang gerak selama tetap aman.</li>
+              <li>Gunakan pola 1,5 repetisi.</li>
+            </ol>
+          </div>
+          <p class="equipment-note">
+            <strong>Ketika 5 kg mulai terlalu ringan</strong>
+            Bila batas repetisi tertinggi tetap ringan setelah memakai tempo dan
+            jeda, pertimbangkan dumbbell yang dapat disesuaikan atau resistance
+            band sebagai peningkatan alat berikutnya.
+          </p>
+        </div>
+        <p class="note">
+          Prone T/W/Y membantu kontrol tulang belikat dan postur. Jika nanti
+          tersedia resistance band atau pull-up bar, gerakan menarik dapat
+          ditambahkan agar latihan punggung berkembang lebih jauh.
+        </p>
+      </section>
+
+      <section id="recovery">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">06 · Pemulihan dan cardio</p>
+            <h2>Hari ringan tetap punya tujuan.</h2>
+          </div>
+          <p class="section-lead">
+            Pemulihan aktif membantu menjaga gerak tubuh, sedangkan lari easy
+            pace membangun kebugaran tanpa mengejar kecepatan.
+          </p>
+        </div>
+
+        <div class="recovery-grid">
+          <article class="recovery-card">
+            <p class="workout-day">Jumat · 15–25 menit</p>
+            <h3>Fleksibilitas</h3>
+            <p>Semua peregangan terasa ringan sampai sedang dan tidak dipaksa hingga nyeri.</p>
+            <ul class="compact-list">
+              <li><strong>Jalan santai</strong><span>10–15 menit</span></li>
+              <li><strong>Hip Flexor Stretch</strong><span>2 × 30–45 dtk/sisi</span></li>
+              <li><strong>Hamstring Stretch</strong><span>2 × 30–45 dtk/sisi</span></li>
+              <li><strong>Child's Pose</strong><span>2 × 30–60 detik</span></li>
+            </ul>
+          </article>
+
+          <article class="recovery-card">
+            <p class="workout-day">Minggu · easy pace</p>
+            <h3>Progresi lari</h3>
+            <p>Pilih pace yang masih memungkinkan berbicara dalam kalimat pendek.</p>
+            <ul class="compact-list">
+              <li><strong>Minggu 1–2</strong><span>Run-walk · 25 menit</span></li>
+              <li><strong>Minggu 3–4</strong><span>Easy run · 30 menit</span></li>
+              <li><strong>Minggu 5–8</strong><span>Easy run · 30–40 menit</span></li>
+              <li><strong>Minggu 9–11</strong><span>5 km / maks. 40 menit</span></li>
+              <li><strong>Minggu 12</strong><span>Recovery · 20–30 menit</span></li>
+            </ul>
+          </article>
+        </div>
+        <p class="note">
+          Tidak perlu sprint atau mengejar pace. Bila kaki masih sangat lelah
+          setelah sesi Sabtu, pilih kombinasi lari-jalan. Rabu tetap menjadi hari
+          istirahat total.
+        </p>
+      </section>
+
+      <section id="tracker">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">07 · Catatan latihan</p>
+            <h2>Ukur progres yang nyata.</h2>
+          </div>
+          <p class="section-lead">
+            Catat repetisi dan kualitas teknik. Evaluasi pada akhir minggu 4, 8,
+            dan 12 sebelum menambah tingkat kesulitan.
+          </p>
+        </div>
+
+        <div class="table-wrap">
+          <table class="tracker-table">
+            <thead>
+              <tr>
+                <th scope="col">Tanggal</th>
+                <th scope="col">Sesi</th>
+                <th scope="col">Gerakan</th>
+                <th scope="col">Set × repetisi</th>
+                <th scope="col">Sisa repetisi</th>
+                <th scope="col">Catatan teknik</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td></tr>
+              <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td></tr>
+              <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td></tr>
+              <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="safety">
+          <strong>Latih dengan aman.</strong> Hentikan latihan bila muncul nyeri
+          tajam, pusing, sesak yang tidak wajar, atau keluhan lain yang memburuk.
+          Program ini merupakan panduan kebugaran umum dan dapat disesuaikan
+          dengan arahan tenaga kesehatan.
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <p>Program Workout 12 Minggu · Home workout dengan peralatan sederhana</p>
+        <a href="https://fitbod.me/exercises">Lihat Fitbod Exercise Library ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>

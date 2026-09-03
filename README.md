@@ -37,4 +37,4 @@ Web:
 | Minggu | Lari easy pace                                     |
 
 Setiap sesi utama hanya berisi 4 gerakan. Detail set, repetisi, rotasi latihan
-biceps, progresi, lari, dan pemulihan tersedia di [program.md](./program.md).
+biceps, progresi, lari, dan pemulihan tersedia di [programs.md](./programs.md).

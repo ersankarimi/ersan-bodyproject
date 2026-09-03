@@ -12,7 +12,7 @@ hanya berisi 4 gerakan dengan durasi sekitar 20–30 menit.
 
 ## Tujuan Program Ini
 
-- Meningkatkan massa otot (*hypertrophy*) dengan progressive overload.
+- Meningkatkan massa otot (_hypertrophy_) dengan progressive overload.
 - Meningkatkan kekuatan dan daya tahan otot.
 - Membentuk six-pack dan core yang kuat.
 - Membuat lengan, khususnya biceps dan triceps, lebih berisi.
@@ -22,15 +22,15 @@ hanya berisi 4 gerakan dengan durasi sekitar 20–30 menit.
 
 ## Jadwal Mingguan
 
-| Hari | Aktivitas | Durasi |
-| --- | --- | --- |
-| Senin | Upper Body A — dada, punggung, bahu, dan biceps | 20–30 menit |
-| Selasa | Lower Body A — kaki, posterior chain, dan core | 20–30 menit |
-| Rabu | Istirahat total | — |
-| Kamis | Upper Body B — dada, punggung, triceps, dan biceps | 20–30 menit |
-| Jumat | Fleksibilitas dan pemulihan aktif | 15–25 menit |
-| Sabtu | Lower Body B — kaki, betis, dan core | 20–30 menit |
-| Minggu | Lari easy pace | 25–40 menit |
+| Hari   | Aktivitas                                          | Durasi      |
+| ------ | -------------------------------------------------- | ----------- |
+| Senin  | Upper Body A — dada, punggung, bahu, dan biceps    | 20–30 menit |
+| Selasa | Lower Body A — kaki, posterior chain, dan core     | 20–30 menit |
+| Rabu   | Istirahat total                                    | —           |
+| Kamis  | Upper Body B — dada, punggung, triceps, dan biceps | 20–30 menit |
+| Jumat  | Fleksibilitas dan pemulihan aktif                  | 15–25 menit |
+| Sabtu  | Lower Body B — kaki, betis, dan core               | 20–30 menit |
+| Minggu | Lari easy pace                                     | 25–40 menit |
 
 ## Panduan Singkat
 
@@ -56,12 +56,12 @@ Senin menggunakan **Biceps Slot A**, sedangkan Kamis menggunakan **Biceps Slot
 B**. Rotasi empat minggu ini memastikan semua variasi tetap digunakan tanpa
 menumpuk terlalu banyak gerakan dalam satu sesi.
 
-| Minggu | Biceps Slot A — Senin | Biceps Slot B — Kamis |
-| --- | --- | --- |
-| 1, 5, 9 | [Dumbbell Bicep Curl](https://fitbod.me/exercises/dumbbell-bicep-curl) — 2 set x 10–20 repetisi/lengan | [Hammer Curls](https://fitbod.me/exercises/hammer-curls) — 2 set x 10–20 repetisi/lengan |
-| 2, 6, 10 | [Cross Body Hammer Curls](https://fitbod.me/exercises/cross-body-hammer-curls) — 2 set x 10–18 repetisi/lengan | [Concentration Curl](https://fitbod.me/exercises/concentration-curl) — 2 set x 10–18 repetisi/lengan |
-| 3, 7, 11 | [Waiter Curls](https://fitbod.me/exercises/waiter-curls) — 2 set x 12–20 repetisi | [Biceps Curl to Shoulder Press](https://fitbod.me/exercises/biceps-curl-to-shoulder-press) — 2 set x 8–15 repetisi/lengan |
-| 4, 8, 12 | [Dumbbell Hammer Pause Curl](https://fitbod.me/exercises/dumbbell-hammer-pause-curl) — 2 set x 8–15 repetisi/lengan | [Dumbbell Bicep Curl](https://fitbod.me/exercises/dumbbell-bicep-curl) — 2 set x 10–20 repetisi/lengan |
+| Minggu   | Biceps Slot A — Senin                                                                                               | Biceps Slot B — Kamis                                                                                                     |
+| -------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 1, 5, 9  | [Dumbbell Bicep Curl](https://fitbod.me/exercises/dumbbell-bicep-curl) — 2 set x 10–20 repetisi/lengan              | [Hammer Curls](https://fitbod.me/exercises/hammer-curls) — 2 set x 10–20 repetisi/lengan                                  |
+| 2, 6, 10 | [Cross Body Hammer Curls](https://fitbod.me/exercises/cross-body-hammer-curls) — 2 set x 10–18 repetisi/lengan      | [Concentration Curl](https://fitbod.me/exercises/concentration-curl) — 2 set x 10–18 repetisi/lengan                      |
+| 3, 7, 11 | [Waiter Curls](https://fitbod.me/exercises/waiter-curls) — 2 set x 12–20 repetisi                                   | [Biceps Curl to Shoulder Press](https://fitbod.me/exercises/biceps-curl-to-shoulder-press) — 2 set x 8–15 repetisi/lengan |
+| 4, 8, 12 | [Dumbbell Hammer Pause Curl](https://fitbod.me/exercises/dumbbell-hammer-pause-curl) — 2 set x 8–15 repetisi/lengan | [Dumbbell Bicep Curl](https://fitbod.me/exercises/dumbbell-bicep-curl) — 2 set x 10–20 repetisi/lengan                    |
 
 Pada minggu 12, lakukan setiap Biceps Slot hanya 1 set sebagai bagian dari
 deload.
@@ -71,10 +71,10 @@ deload.
 Fokus: dada, punggung atas, bahu, dan biceps.
 
 1. [Push Up](https://fitbod.me/exercises/push-up) — 3 set x 8–15 repetisi.
-2. [Prone T's](https://fitbod.me/exercises/prone-t-s) — 3 set x 10–15
-   repetisi. Tahan 1–2 detik di posisi atas.
-3. [Standing Single Arm Dumbbell Shoulder Press](https://fitbod.me/exercises/standing-single-arm-dumbbell-shoulder-press) —
-   3 set x 10–15 repetisi/lengan.
+2. [Prone T's](https://fitbod.me/exercises/prone-t-s) — 3 set x 10–15 repetisi.
+   Tahan 1–2 detik di posisi atas.
+3. [Standing Single Arm Dumbbell Shoulder Press](https://fitbod.me/exercises/standing-single-arm-dumbbell-shoulder-press)
+   — 3 set x 10–15 repetisi/lengan.
 4. **Biceps Slot A** — 2 set sesuai rotasi minggu.
 
 Jangan mengayun badan saat shoulder press atau curl. Kencangkan core dan jaga
@@ -100,8 +100,8 @@ dorong pinggul ke belakang, dan pertahankan punggung netral.
 
 Fokus: dada, punggung atas, triceps, dan biceps.
 
-1. [Single Arm Floor Press](https://fitbod.me/exercises/single-arm-floor-press) —
-   3 set x 10–18 repetisi/lengan.
+1. [Single Arm Floor Press](https://fitbod.me/exercises/single-arm-floor-press)
+   — 3 set x 10–18 repetisi/lengan.
 2. Minggu ganjil: [Prone W's](https://fitbod.me/exercises/prone-w-s). Minggu
    genap: [Prone Y's](https://fitbod.me/exercises/prone-y-s) — 3 set x 10–15
    repetisi. Tahan 1–2 detik di posisi atas.
@@ -118,24 +118,24 @@ Fokus: paha, glutes, betis, dan core.
 
 1. [Reverse Lunge](https://fitbod.me/exercises/reverse-lunge) — 3 set x 8–15
    repetisi/kaki.
-2. [Step Up](https://fitbod.me/exercises/step-up) — 3 set x 10–15
-   repetisi/kaki. Gunakan hanya kursi atau pijakan yang tidak licin dan tidak
-   goyah; ganti dengan Goblet Squat bila pijakan tidak aman.
-3. [Single Leg Standing Calf Raise](https://fitbod.me/exercises/single-leg-standing-calf-raise) —
-   3 set x 12–25 repetisi/kaki. Pegang kursi untuk menjaga keseimbangan.
+2. [Step Up](https://fitbod.me/exercises/step-up) — 3 set x 10–15 repetisi/kaki.
+   Gunakan hanya kursi atau pijakan yang tidak licin dan tidak goyah; ganti
+   dengan Goblet Squat bila pijakan tidak aman.
+3. [Single Leg Standing Calf Raise](https://fitbod.me/exercises/single-leg-standing-calf-raise)
+   — 3 set x 12–25 repetisi/kaki. Pegang kursi untuk menjaga keseimbangan.
 4. Minggu ganjil: [Plank](https://fitbod.me/exercises/plank) — 3 set x 30–60
    detik. Minggu genap: [Leg Raise](https://fitbod.me/exercises/leg-raise) — 3
    set x 10–15 repetisi.
 
 ## Progresi 12 Minggu
 
-| Fase | Set dan intensitas |
-| --- | --- |
-| Minggu 1–2 | Lakukan 2 set untuk setiap gerakan. Gunakan teknik terkontrol dan sisakan sekitar 3 repetisi. |
-| Minggu 3–4 | Ikuti jumlah set dan repetisi yang tertulis. Sisakan sekitar 2–3 repetisi. |
-| Minggu 5–8 | Naikkan repetisi sampai batas atas, lalu gunakan tempo turun 3 detik atau jeda 1 detik. |
-| Minggu 9–11 | Pertahankan jumlah set. Sisakan sekitar 1–2 repetisi pada set terakhir tanpa merusak teknik. |
-| Minggu 12 | Deload: lakukan 2 set per gerakan, Biceps Slot 1 set, dan sekitar 60–70% repetisi normal. |
+| Fase        | Set dan intensitas                                                                            |
+| ----------- | --------------------------------------------------------------------------------------------- |
+| Minggu 1–2  | Lakukan 2 set untuk setiap gerakan. Gunakan teknik terkontrol dan sisakan sekitar 3 repetisi. |
+| Minggu 3–4  | Ikuti jumlah set dan repetisi yang tertulis. Sisakan sekitar 2–3 repetisi.                    |
+| Minggu 5–8  | Naikkan repetisi sampai batas atas, lalu gunakan tempo turun 3 detik atau jeda 1 detik.       |
+| Minggu 9–11 | Pertahankan jumlah set. Sisakan sekitar 1–2 repetisi pada set terakhir tanpa merusak teknik.  |
+| Minggu 12   | Deload: lakukan 2 set per gerakan, Biceps Slot 1 set, dan sekitar 60–70% repetisi normal.     |
 
 ### Urutan menambah tantangan dengan dumbbell 5 kg
 
@@ -178,8 +178,8 @@ sangat lelah dari latihan Sabtu, pilih kombinasi lari-jalan.
 ## Catatan Latihan
 
 | Tanggal | Sesi | Gerakan | Set x repetisi | Sisa repetisi | Catatan teknik |
-| --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |
+| ------- | ---- | ------- | -------------- | ------------- | -------------- |
+|         |      |         |                |               |                |
 
 Evaluasi pada akhir minggu 4, 8, dan 12. Naikkan tingkat kesulitan hanya jika
 repetisi bertambah dengan teknik yang tetap rapi dan tubuh tidak mengalami
